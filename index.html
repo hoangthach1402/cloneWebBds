@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" prefix="og: https://ogp.me/ns#" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" prefix="og: https://ogp.me/ns#" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" prefix="og: https://ogp.me/ns#" class="loading-site no-js"> <!--<![endif]-->
+<head><meta charset="UTF-8" /><!-- Optimized with WP Meteor v2.3.10 - https://wordpress.org/plugins/wp-meteor/ --><script >var _wpmeteor={"exclude":true,"rdelay":86400000,"elementor-animations":true,"elementor-pp":true,"v":"2.3.10"};if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]wpmeteordisable/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?wpmeteordisable=1"}else{document.location.href=href.replace("#","?wpmeteordisable=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&wpmeteordisable=1"}else{document.location.href=href.replace("#","&wpmeteordisable=1#")}}}}</script><script >!function(t){var e={};function n(r){if(e[r])return e[r].exports;var o=e[r]={i:r,l:!1,exports:{}};return t[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=t,n.c=e,n.d=function(t,e,r){n.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:r})},n.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},n.t=function(t,e){if(1&e&&(t=n(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var o in t)n.d(r,o,function(e){return t[e]}.bind(null,o));return r},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,"a",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p="/",n(n.s=0)}([function(t,e,n){t.exports=n(1)},function(t,e,n){"use strict";n.r(e);var r=new(function(){function t(){this.l=[]}var e=t.prototype;return e.emit=function(t,e){void 0===e&&(e=null),this.l[t]&&this.l[t].forEach((function(t){return t(e)}))},e.on=function(t,e){var n;(n=this.l)[t]||(n[t]=[]),this.l[t].push(e)},e.off=function(t,e){this.l[t]=(this.l[t]||[]).filter((function(t){return t!==e}))},t}()),o=new Date,i=document,a=function(){function t(){this.known=[]}var e=t.prototype;return e.init=function(){var t,e=this,n=!1,o=function(t){if(!n&&t&&t.fn&&!t.__wpmeteor){var r=function(e){return i.addEventListener("DOMContentLoaded",(function(n){e.bind(i)(t,n)})),this};e.known.push([t,t.fn.ready,t.fn.init.prototype.ready]),t.fn.ready=r,t.fn.init.prototype.ready=r,t.__wpmeteor=!0}return t};window.jQuery&&(t=o(window.jQuery)),Object.defineProperty(window,"jQuery",{get:function(){return t},set:function(e){return t=o(e)}}),r.on("l",(function(){return n=!0}))},e.unmock=function(){this.known.forEach((function(t){var e=t[0],n=t[1],r=t[2];e.fn.ready=n,e.fn.init.prototype.ready=r}))},t}(),c={};!function(t,e){try{var n=Object.defineProperty({},e,{get:function(){c[e]=!0}});t.addEventListener(e,null,n),t.removeEventListener(e,null,n)}catch(t){}}(window,"passive");var u=c,f=window,d=document,s=["mouseover","keydown","touchmove","touchend","wheel"],l=["mouseover","mouseout","touchstart","touchmove","touchend","click"],p="data-wpmeteor-",v=function(){function t(){}return t.prototype.init=function(t){var e=!1,n=!1,o=function t(o){e||(e=!0,s.forEach((function(e){return d.body.removeEventListener(e,t,u)})),clearTimeout(n),location.href.match(/wpmeteornopreload/)||r.emit("pre"),r.emit("fi"))},i=function(t){var e=new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0});return Object.defineProperty(e,"target",{writable:!1,value:t.target}),e};t<1e4&&r.on("i",(function(){e||(n=setTimeout(o,t))}));var a=[],c=function(t){t.target&&"dispatchEvent"in t.target&&("click"===t.type?(t.preventDefault(),t.stopPropagation(),a.push(i(t))):"touchmove"!==t.type&&a.push(t),t.target.setAttribute(p+t.type,!0))};r.on("l",(function(){var t;for(l.forEach((function(t){return f.removeEventListener(t,c)}));t=a.shift();){var e=t.target;e.getAttribute(p+"touchstart")&&e.getAttribute(p+"touchend")&&!e.getAttribute(p+"click")?(e.getAttribute(p+"touchmove")||(e.removeAttribute(p+"touchmove"),a.push(i(t))),e.removeAttribute(p+"touchstart"),e.removeAttribute(p+"touchend")):e.removeAttribute(p+t.type),e.dispatchEvent(t)}}));d.addEventListener("DOMContentLoaded",(function t(){s.forEach((function(t){return d.body.addEventListener(t,o,u)})),l.forEach((function(t){return f.addEventListener(t,c)})),d.removeEventListener("DOMContentLoaded",t)}))},t}(),m=document,h=m.createElement("span");h.setAttribute("id","elementor-device-mode"),h.setAttribute("class","elementor-screen-only");var y=window,b=document,g=b.documentElement,w=function(t){return t.getAttribute("class")||""},E=function(t,e){return t.setAttribute("class",e)},L=function(){window.addEventListener("load",(function(){var t=(m.body.appendChild(h),getComputedStyle(h,":after").content.replace(/"/g,"")),e=Math.max(g.clientWidth||0,y.innerWidth||0),n=Math.max(g.clientHeight||0,y.innerHeight||0),o=["_animation_"+t,"animation_"+t,"_animation","_animation","animation"];Array.from(b.querySelectorAll(".elementor-invisible")).forEach((function(t){var i=t.getBoundingClientRect();if(i.top+y.scrollY<=n&&i.left+y.scrollX<e)try{var a=JSON.parse(t.getAttribute("data-settings"));if(a.trigger_source)return;for(var c,u=a._animation_delay||a.animation_delay||0,f=0;f<o.length;f++)if(a[o[f]]){o[f],c=a[o[f]];break}if(c){var d=w(t),s="none"===c?d:d+" animated "+c,l=setTimeout((function(){E(t,s.replace(/\belementor\-invisible\b/,"")),o.forEach((function(t){return delete a[t]})),t.setAttribute("data-settings",JSON.stringify(a))}),u);r.on("fi",(function(){clearTimeout(l),E(t,w(t).replace(new RegExp("\b"+c+"\b"),""))}))}}catch(t){console.error(t)}}))}))},S=document,A="querySelectorAll",O="data-in-mega_smartmenus",_="DOMContentLoaded",j="readystatechange",P="message",k=console.error;!function(t,e,n,i,c,u,f,d,s){var l,p,m=t.constructor.name+"::",h=e.constructor.name+"::",y=function(e,n){n=n||t;for(var r=0;r<this.length;r++)e.call(n,this[r],r,this)};"NodeList"in t&&!NodeList.prototype.forEach&&(NodeList.prototype.forEach=y),"HTMLCollection"in t&&!HTMLCollection.prototype.forEach&&(HTMLCollection.prototype.forEach=y),_wpmeteor["elementor-animations"]&&L(),_wpmeteor["elementor-pp"]&&function(){var t=S.createElement("div");t.innerHTML='<span class="sub-arrow --wp-meteor"><i class="fa" aria-hidden="true"></i></span>';var e=t.firstChild;S.addEventListener("DOMContentLoaded",(function(){Array.from(S[A](".pp-advanced-menu ul")).forEach((function(t){if(!t.getAttribute(O)){(t.getAttribute("class")||"").match(/\bmega\-menu\b/)&&t[A]("ul").forEach((function(t){t.setAttribute(O,!0)}));var n=function(t){for(var e=[];t=t.previousElementSibling;)e.push(t);return e}(t),r=n.filter((function(t){return t})).filter((function(t){return"A"===t.tagName})).pop();if(r||(r=n.map((function(t){return Array.from(t[A]("a"))})).filter((function(t){return t})).flat().pop()),r){var o=e.cloneNode(!0);r.appendChild(o),new MutationObserver((function(t){t.forEach((function(t){t.addedNodes.forEach((function(t){if(1===t.nodeType&&"SPAN"===t.tagName)try{r.removeChild(o)}catch(t){}}))}))})).observe(r,{childList:!0})}}}))}))}();var b,g,w=[],E=[],x={},C=!1,T=!1,M=setTimeout;var N=e[n].bind(e),R=e[i].bind(e),H=t[n].bind(t),D=t[i].bind(t);"undefined"!=typeof EventTarget&&(b=EventTarget.prototype.addEventListener,g=EventTarget.prototype.removeEventListener,N=b.bind(e),R=g.bind(e),H=b.bind(t),D=g.bind(t));var z,q=e.createElement.bind(e),B=e.__proto__.__lookupGetter__("readyState").bind(e);Object.defineProperty(e,"readyState",{get:function(){return z||B()},set:function(t){return z=t}});var Q=function(t){return E.filter((function(e,n){var r=e[0],o=(e[1],e[2]);if(!(t.indexOf(r.type)<0)){o||(o=r.target);try{for(var i=o.constructor.name+"::"+r.type,a=0;a<x[i].length;a++){if(x[i][a])if(!W[i+"::"+n+"::"+a])return!0}}catch(t){}}})).length},W={},I=function(t){E.forEach((function(n,r){var o=n[0],i=n[1],a=n[2];if(!(t.indexOf(o.type)<0)){a||(a=o.target);try{var c=a.constructor.name+"::"+o.type;if((x[c]||[]).length)for(var u=0;u<x[c].length;u++){var f=x[c][u];if(f){var d=c+"::"+r+"::"+u;if(!W[d]){W[d]=!0,e.readyState=i;try{f.hasOwnProperty("prototype")&&f.prototype.constructor!==f?f(o):f.bind(a)(o)}catch(t){k(t,f)}}}}}catch(t){k(t)}}}))};N(_,(function(t){E.push([t,e.readyState,e])})),N(j,(function(t){E.push([t,e.readyState,e])})),H(_,(function(n){E.push([n,e.readyState,t])})),H(d,(function(n){E.push([n,e.readyState,t]),G||I([_,j,P,d])}));var J=function(n){E.push([n,e.readyState,t])};H(P,J),r.on("fi",(function(){T=!0,G=!0,e.readyState="loading",M(X)}));H(d,(function t(){C=!0,T&&!G&&(e.readyState="loading",M(X)),D(d,t)})),(new v).init(_wpmeteor.rdelay);var F=new a;F.init();var G=!1,X=function n(){var o=w.shift();if(o)if(o[c]("data-src"))o.hasAttribute("data-async")?(U(o),M(n)):U(o,n);else if("javascript/blocked"==o.type)U(o),M(n);else if(o.hasAttribute("data-wpmeteor-onload")){var i=o[c]("data-wpmeteor-onload");try{new Function(i).call(o)}catch(t){k(t)}M(n)}else M(n);else if(Q([_,j,P]))I([_,j,P]),M(n);else if(T&&C)if(Q([d,P]))I([d,P]),M(n);else{if(t.RocketLazyLoadScripts)try{RocketLazyLoadScripts.run()}catch(t){k(t)}e.readyState="complete",D(P,J),(x[m+"message"]||[]).forEach((function(t){H(P,t)})),F.unmock(),Z=N,$=R,nt=H,rt=D,G=!1,setTimeout((function(){return r.emit("l")}))}else G=!1},Y=function(t){for(var n=e.createElement("SCRIPT"),r=t.attributes,o=r.length-1;o>=0;o--)n.setAttribute(r[o].name,r[o].value);return n.bypass=!0,n.type=t.hasAttribute("data-wpmeteor-module")?"module":"text/javascript",(t.text||"").match(/^\s*class RocketLazyLoadScripts/)?n.text=t.text.replace(/^\s*class RocketLazyLoadScripts/,"window.RocketLazyLoadScripts=class").replace("RocketLazyLoadScripts.run();",""):n.text=t.text,n[f]("data-wpmeteor-after"),n},K=function(t,e){var n=t.parentNode;n&&n.replaceChild(e,t)},U=function(t,e){if(t[c]("data-src")){var r=Y(t),o=b?b.bind(r):r[n].bind(r);if(e){var i=function(){return M(e)};o(d,i),o(s,i)}r.src=t[c]("data-src"),r[f]("data-src"),K(t,r)}else"javascript/blocked"===t.type?K(t,Y(t)):onLoad&&onLoad()},V=function(t,e){var n=(x[t]||[]).indexOf(e);if(n>=0)return x[t][n]=void 0,!0},Z=function(t,e){if(e&&(t===_||t===j)){var n=h+t;return x[n]=x[n]||[],void x[n].push(e)}for(var r=arguments.length,o=new Array(r>2?r-2:0),i=2;i<r;i++)o[i-2]=arguments[i];return N.apply(void 0,[t,e].concat(o))},$=function(t,e){t===_&&V(h+t,e);return R(t,e)};Object.defineProperties(e,((l={})[n]={get:function(){return Z},set:function(){return Z}},l[i]={get:function(){return $},set:function(){return $}},l)),r.on("pre",(function(){return w.forEach((function(t){var n=t[c]("data-src");if(n){var r=q("link");r.rel="pre"+d,r.as="script",r.href=n,r.crossorigin=!0,e.head.appendChild(r)}}))})),N(_,(function(){e.querySelectorAll("script[data-wpmeteor-after]").forEach((function(t){return w.push(t)}));var t=["link"].map((function(t){return t+"[data-wpmeteor-onload]"})).join(",");e.querySelectorAll(t).forEach((function(t){return w.push(t)}))}));var tt=function(t){if(e.currentScript)try{var n=e.currentScript.parentElement,r=e.currentScript.nextSibling,i=document.createElement("div");i.innerHTML=t,Array.from(i.childNodes).forEach((function(t){"SCRIPT"===t.nodeName?n.insertBefore(Y(t),r):n.insertBefore(t,r)}))}catch(t){console.error(t)}else k((new Date-o)/1e3,"document.currentScript not set",t)},et=function(t){return tt(t+"\n")};Object.defineProperties(e,{write:{get:function(){return tt},set:function(t){return tt=t}},writeln:{get:function(){return et},set:function(t){return et=t}}});var nt=function(t,e){if(e&&(t===d||t===_||t===P)){var n=t===_?h+t:m+t;return x[n]=x[n]||[],void x[n].push(e)}for(var r=arguments.length,o=new Array(r>2?r-2:0),i=2;i<r;i++)o[i-2]=arguments[i];return H.apply(void 0,[t,e].concat(o))},rt=function(t,e){t===d&&V(t===_?h+t:m+t,e);return D(t,e)};Object.defineProperties(t,((p={})[n]={get:function(){return nt},set:function(){return nt}},p[i]={get:function(){return rt},set:function(){return rt}},p));var ot=function(t){var e;return{get:function(){return e},set:function(n){return e&&V(t,n),x[t]=x[t]||[],x[t].push(n),e=n}}},it=ot(m+d);Object.defineProperty(t,"onload",it),N(_,(function(){Object.defineProperty(e.body,"onload",it)})),Object.defineProperty(e,"onreadystatechange",ot(h+j)),Object.defineProperty(t,"onmessage",ot(m+P));var at=1,ct=function(){--at||r.emit("i")};H(d,(function t(){M((function(){e.querySelectorAll("img").forEach((function(t){if(!t.complete&&(t.currentSrc||t.src)&&"lazy"==!(t.loading||"").toLowerCase()||(r=t.getBoundingClientRect(),o=window.innerHeight||document.documentElement.clientHeight,i=window.innerWidth||document.documentElement.clientWidth,r.top>=-1*o*1&&r.left>=-1*i*1&&r.bottom<=2*o&&r.right<=2*i)){var e=new Image;e[n](d,ct),e[n](s,ct),e.src=t.currentSrc||t.src,at++}var r,o,i})),ct()})),D(d,t)}));var ut=Object.defineProperty;Object.defineProperty=function(n,r,o){return n===t&&["jQuery","onload"].indexOf(r)>=0||(n===e||n===e.body)&&["readyState","write"].indexOf(r)>=0?n:ut(n,r,o)},Object.defineProperties=function(t,e){for(var n in e)Object.defineProperty(t,n,e[n]);return t}}(window,document,"addEventListener","removeEventListener","getAttribute",0,"removeAttribute","load","error")}]);
+</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://www.htpearl.info/xmlrpc.php" />
+
+	<script  data-wpmeteor-after="REORDER" type="javascript/blocked">(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
+<title>HT PEARL | Căn hộ Dĩ An Bình Dương【Website Chính Thức】</title>
+<meta name="description" content="HT Pearl tọa lạc trên khu đất vàng tại đường Nguyễn Bỉnh Khiêm, KP Tân Hòa, P Đông Hòa, TP Dĩ An, tỉnh Bình Dương. Dự án căn hộ HT Pearl được xây dựng gồm 2 block cao 36 tầng nổi và 2 tầng hầm. Dự kiến cung ứng ra thị trường khoảng 1.063 căn hộ."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.htpearl.info/" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="HT PEARL | Căn hộ Dĩ An Bình Dương【Website Chính Thức】" />
+<meta property="og:description" content="HT Pearl tọa lạc trên khu đất vàng tại đường Nguyễn Bỉnh Khiêm, KP Tân Hòa, P Đông Hòa, TP Dĩ An, tỉnh Bình Dương. Dự án căn hộ HT Pearl được xây dựng gồm 2 block cao 36 tầng nổi và 2 tầng hầm. Dự kiến cung ứng ra thị trường khoảng 1.063 căn hộ." />
+<meta property="og:url" content="https://www.htpearl.info/" />
+<meta property="og:site_name" content="HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】" />
+<meta property="og:updated_time" content="2022-03-24T15:01:33+07:00" />
+<meta property="og:image" content="https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png" />
+<meta property="og:image:secure_url" content="https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:image:alt" content="ht pearl" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="HT PEARL | Căn hộ Dĩ An Bình Dương【Website Chính Thức】" />
+<meta name="twitter:description" content="HT Pearl tọa lạc trên khu đất vàng tại đường Nguyễn Bỉnh Khiêm, KP Tân Hòa, P Đông Hòa, TP Dĩ An, tỉnh Bình Dương. Dự án căn hộ HT Pearl được xây dựng gồm 2 block cao 36 tầng nổi và 2 tầng hầm. Dự kiến cung ứng ra thị trường khoảng 1.063 căn hộ." />
+<meta name="twitter:image" content="https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://www.htpearl.info/#place","geo":{"@type":"GeoCoordinates","latitude":"10.888456","longitude":"106.7848901"},"hasMap":"https://www.google.com/maps/search/?api=1&amp;query=10.888456,106.7848901","address":{"@type":"PostalAddress","streetAddress":"29 Nguy\u1ec5n B\u1ec9nh Khi\u00eam, \u0110\u00f4ng H\u00f2a,","addressLocality":"D\u0129 An","addressRegion":"B\u00ecnh D\u01b0\u01a1ng","postalCode":"75308","addressCountry":"Vi\u1ec7t Nam"}},{"@type":["LocalBusiness","Organization"],"@id":"https://www.htpearl.info/#organization","name":"HT PEARL","url":"https://www.htpearl.info","email":"info@ht-pearl.net","address":{"@type":"PostalAddress","streetAddress":"29 Nguy\u1ec5n B\u1ec9nh Khi\u00eam, \u0110\u00f4ng H\u00f2a,","addressLocality":"D\u0129 An","addressRegion":"B\u00ecnh D\u01b0\u01a1ng","postalCode":"75308","addressCountry":"Vi\u1ec7t Nam"},"logo":{"@type":"ImageObject","@id":"https://www.htpearl.info/#logo","url":"https://www.htpearl.info/wp-content/uploads/2022/03/main-logo-htpearl-1.png","caption":"HT PEARL","inLanguage":"vi","width":"450","height":"274"},"priceRange":"$$","openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 06:00-22:00"],"location":{"@id":"https://www.htpearl.info/#place"},"image":{"@id":"https://www.htpearl.info/#logo"},"telephone":"0934950888"},{"@type":"WebSite","@id":"https://www.htpearl.info/#website","url":"https://www.htpearl.info","name":"HT PEARL","publisher":{"@id":"https://www.htpearl.info/#organization"},"inLanguage":"vi","potentialAction":{"@type":"SearchAction","target":"https://www.htpearl.info/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png","url":"https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png","width":"512","height":"512","inLanguage":"vi"},{"@type":"Person","@id":"https://www.htpearl.info/author/admin/","name":"admin","url":"https://www.htpearl.info/author/admin/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/ed64ffb302bca48fafacd8785d284e06?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/ed64ffb302bca48fafacd8785d284e06?s=96&amp;d=mm&amp;r=g","caption":"admin","inLanguage":"vi"},"worksFor":{"@id":"https://www.htpearl.info/#organization"}},{"@type":"WebPage","@id":"https://www.htpearl.info/#webpage","url":"https://www.htpearl.info/","name":"HT PEARL | C\u0103n h\u1ed9 D\u0129 An B\u00ecnh D\u01b0\u01a1ng\u3010Website Ch\u00ednh Th\u1ee9c\u3011","datePublished":"2021-12-09T17:59:39+07:00","dateModified":"2022-03-24T15:01:33+07:00","author":{"@id":"https://www.htpearl.info/author/admin/"},"isPartOf":{"@id":"https://www.htpearl.info/#website"},"primaryImageOfPage":{"@id":"https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png"},"inLanguage":"vi"},{"@type":"Article","headline":"HT PEARL | C\u0103n h\u1ed9 D\u0129 An B\u00ecnh D\u01b0\u01a1ng\u3010Website Ch\u00ednh Th\u1ee9c\u3011","keywords":"ht pearl,ht pearl d\u0129 an,ht pearl b\u00ecnh d\u01b0\u01a1ng,c\u0103n h\u1ed9 ht pearl,d\u1ef1 \u00e1n ht pearl","datePublished":"2021-12-09T17:59:39+07:00","dateModified":"2022-03-24T15:01:33+07:00","author":{"@id":"https://www.htpearl.info/author/admin/"},"publisher":{"@id":"https://www.htpearl.info/#organization"},"description":"HT Pearl t\u1ecda l\u1ea1c tr\u00ean khu \u0111\u1ea5t v\u00e0ng t\u1ea1i \u0111\u01b0\u1eddng Nguy\u1ec5n B\u1ec9nh Khi\u00eam, KP T\u00e2n H\u00f2a, P \u0110\u00f4ng H\u00f2a, TP D\u0129 An, t\u1ec9nh B\u00ecnh D\u01b0\u01a1ng. D\u1ef1 \u00e1n c\u0103n h\u1ed9 HT Pearl \u0111\u01b0\u1ee3c x\u00e2y d\u1ef1ng g\u1ed3m 2 block cao 36 t\u1ea7ng n\u1ed5i v\u00e0 2 t\u1ea7ng h\u1ea7m. D\u1ef1 ki\u1ebfn cung \u1ee9ng ra th\u1ecb tr\u01b0\u1eddng kho\u1ea3ng 1.063 c\u0103n h\u1ed9.","name":"HT PEARL | C\u0103n h\u1ed9 D\u0129 An B\u00ecnh D\u01b0\u01a1ng\u3010Website Ch\u00ednh Th\u1ee9c\u3011","@id":"https://www.htpearl.info/#richSnippet","isPartOf":{"@id":"https://www.htpearl.info/#webpage"},"image":{"@id":"https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png"},"inLanguage":"vi","mainEntityOfPage":{"@id":"https://www.htpearl.info/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】 &raquo;" href="https://www.htpearl.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】 &raquo;" href="https://www.htpearl.info/comments/feed/" />
+		<script  data-wpmeteor-after="REORDER" type="javascript/blocked">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.htpearl.info\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.8"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.htpearl.info/wp-includes/css/dist/block-library/style.min.css?ver=5.6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.htpearl.info/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='RMFtooltip-css-css'  href='https://www.htpearl.info/wp-content/plugins/responsive-mobile-friendly-tooltip/responsive-tooltip.css?ver=5.6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.htpearl.info/wp-content/plugins/tablepress/css/default.min.css?ver=1.14' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-main-css'  href='https://www.htpearl.info/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.14.3' type='text/css' media='all' />
+<style id='flatsome-main-inline-css' type='text/css'>
+@font-face {
+				font-family: "fl-icons";
+				font-display: block;
+				src: url(https://www.htpearl.info/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot?v=3.14.3);
+				src:
+					url(https://www.htpearl.info/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix?v=3.14.3) format("embedded-opentype"),
+					url(https://www.htpearl.info/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2?v=3.14.3) format("woff2"),
+					url(https://www.htpearl.info/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf?v=3.14.3) format("truetype"),
+					url(https://www.htpearl.info/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.14.3) format("woff"),
+					url(https://www.htpearl.info/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.14.3#fl-icons) format("svg");
+			}
+</style>
+<link rel='stylesheet' id='flatsome-style-css'  href='https://www.htpearl.info/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-googlefonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700%2C500%2C700%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' type='text/css' media='all' />
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://www.htpearl.info/wp-json/" /><link rel="alternate" type="application/json" href="https://www.htpearl.info/wp-json/wp/v2/pages/881" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.htpearl.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.htpearl.info/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6.8" />
+<link rel='shortlink' href='https://www.htpearl.info/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.htpearl.info/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.htpearl.info%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.htpearl.info/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.htpearl.info%2F&#038;format=xml" />
+<style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://www.htpearl.info/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script  data-wpmeteor-after="REORDER" type="javascript/blocked">var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src="https://www.htpearl.info/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]--><meta name="google-site-verification" content="rP43cE4XOm3POrqOS8ysu39DG5_WVSQ5XjdPTERK0T0" />
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "HT PEARL",
+  "description": "HT Pearl tọa lạc trên khu đất vàng tại đường Nguyễn Bỉnh Khiêm, KP Tân Hòa, P Đông Hòa, TP Dĩ An, tỉnh Bình Dương. Dự án căn hộ HT Pearl được xây dựng gồm 2 block cao 36 tầng nổi và 2 tầng hầm. Dự kiến cung ứng ra thị trường khoảng 1.063 căn hộ.",
+  "image": "https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3.jpg",
+"logo": "https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon.png",
+"hasMap": "https://goo.gl/maps/yRPqG8118b4sKhc48",
+  "@id": "https://www.google.com/search?kgmid=/g/11q7dv_vv9", 
+  "url": "https://www.htpearl.info/",
+  "telephone": "0934950888",
+  "priceRange": "1900000000 - 2500000000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "29 Nguyễn Bỉnh Khiêm, Đông Hoà, Dĩ An",
+    "addressLocality": "Bình Dương",
+    "postalCode": "75308",
+    "addressCountry": "VN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "10.888456",
+    "longitude": "106.7848901"
+  },
+  "openingHoursSpecification": {
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "06:00",
+    "closes": "22:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/HT-Pearl-107176955269028/",
+"https://www.youtube.com/channel/UCZ8kblsZZMHvVMZsjDBkJWA"
+  ]
+}
+</script>
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="icon" href="https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.htpearl.info/wp-content/uploads/2022/03/cropped-icon-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #c39b8a;}.full-width .ubermenu-nav, .container, .row{max-width: 1170px}.row.row-collapse{max-width: 1140px}.row.row-small{max-width: 1162.5px}.row.row-large{max-width: 1200px}.header-main{height: 89px}#logo img{max-height: 89px}#logo{width:151px;}#logo img{padding:15px 0;}.header-bottom{min-height: 10px}.header-top{min-height: 30px}.transparent .header-main{height: 150px}.transparent #logo img{max-height: 150px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 150px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bg-color, .header-wrapper {background-color: #c39b8a}.header-bottom {background-color: #f1f1f1}.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown-has-arrow.nav-dropdown-has-border li.has-dropdown:before{border-bottom-color: #ffffff;}.nav .nav-dropdown{border-color: #ffffff }.nav-dropdown-has-arrow li.has-dropdown:after{border-bottom-color: #ffffff;}.nav .nav-dropdown{background-color: #ffffff}.header-top{background-color:#513b2f!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #c39b8a;}/* Color !important */[data-text-color="primary"]{color: #c39b8a!important;}/* Background Color */[data-text-bg="primary"]{background-color: #c39b8a;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #c39b8a;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #c39b8a}.nav-tabs > li.active > a{border-top-color: #c39b8a}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #c39b8a }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #c39b8a }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #c39b8a;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#ff4b3c; }[data-text-bg="secondary"]{background-color: #ff4b3c;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #ff4b3c}/* Color !important */[data-text-color="secondary"]{color: #ff4b3c!important;}/* Border */.secondary.is-outline:hover{border-color:#ff4b3c}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 90%;}}body{font-family:"Montserrat", sans-serif}body{font-weight: 500}body{color: #000000}.nav > li > a {font-family:"Montserrat", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Montserrat", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Montserrat", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font{color: #ab6649;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 400!important;}.header:not(.transparent) .header-nav-main.nav > li > a {color: #ffffff;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #edc9b4;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #edc9b4;}a{color: #dd9933;}a:hover{color: #21364b;}.tagcloud a:hover{border-color: #21364b;background-color: #21364b;}.footer-2{background-color: #800000}.absolute-footer, html{background-color: #800000}.page-title-small + main .product-container > .row{padding-top:0;}/* Custom CSS */.morecontent span {display: none;}.morelink {position: relative;display: block;font-size: 14px;color: #8bc540 !important;font-weight: 700;}.morelink:after {content: '';display: inline-block;vertical-align: middle;margin-left: 5px;border-top: solid 5px transparent;border-bottom: solid 5px transparent;border-left: solid 5px #8bc540;transition: all .4s;}.morelink:hover:after {margin-left: 10px;}.morelink.less:after {content: none;}.text-scroll {text-align: justify !important;font-size: 12.5px;padding-right: 5px;}/* Custom CSS Tablet */@media (max-width: 849px){.stuck .header-main,.header-main {background: #800000;}}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style></head>
+
+<body class="home page-template page-template-page-transparent-header page-template-page-transparent-header-php page page-id-881 lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
+<script data-cfasync="false">var ewww_webp_supported=false;</script>
+
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header transparent has-transparent has-sticky sticky-shrink">
+		<div class="header-wrapper">
+			<div id="masthead" class="header-main nav-dark">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://www.htpearl.info/" title="HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】" rel="home">
+    <img width="151" height="89" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAESAQMAAABU6EcpAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACZJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAADcCj4UAAGhOlAJAAAAAElFTkSuQmCC" class="header_logo header-logo lazyload" alt="HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】" data-src="https://www.htpearl.info/wp-content/uploads/2022/03/logo-ht-pearl.png" decoding="async" /><noscript><img width="151" height="89" src="https://www.htpearl.info/wp-content/uploads/2022/03/logo-ht-pearl.png" class="header_logo header-logo" alt="HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】" data-eio="l" /></noscript><img  width="151" height="89" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAESAQMAAABU6EcpAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACZJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAADcCj4UAAGhOlAJAAAAAElFTkSuQmCC" class="header-logo-dark lazyload" alt="HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】" data-src="https://www.htpearl.info/wp-content/uploads/2022/03/logo-ht-pearl.png" decoding="async" /><noscript><img  width="151" height="89" src="https://www.htpearl.info/wp-content/uploads/2022/03/logo-ht-pearl.png" class="header-logo-dark" alt="HT Pearl | Căn hộ  Dĩ An Bình Dương T4/2022【Website Chính Thức】" data-eio="l" /></noscript></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  <div class="header-button">		<a href="#" data-open="#main-menu" data-pos="center" data-bg="main-menu-overlay" data-color="" class="icon button circle is-outline is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  		</a>
+	 </div> </li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-size-medium nav-spacing-medium nav-uppercase" >
+                          </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-size-medium nav-spacing-medium nav-uppercase">
+              <li id="menu-item-649" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-649 active menu-item-design-default"><a href="https://www.htpearl.info/" aria-current="page" class="nav-top-link">Home</a></li>
+<li id="menu-item-650" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-650 menu-item-design-default"><a href="#vi-tri" class="nav-top-link">Vị trí</a></li>
+<li id="menu-item-651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-651 menu-item-design-default"><a href="#mat-bang" class="nav-top-link">Mặt bằng</a></li>
+<li id="menu-item-1239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1239 menu-item-design-default"><a href="#thiet-ke" class="nav-top-link">Thiết kế</a></li>
+<li id="menu-item-652" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-652 menu-item-design-default"><a href="#tien-ich" class="nav-top-link">Tiện ích</a></li>
+<li id="menu-item-1211" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1211 menu-item-design-default"><a href="#thanhtoan" class="nav-top-link">Thanh toán</a></li>
+<li id="menu-item-1215" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1215 menu-item-design-default"><a href="#uudai" class="nav-top-link">Ưu đãi</a></li>
+<li id="menu-item-1213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1213 menu-item-design-default"><a href="#giaban" class="nav-top-link">Giá bán</a></li>
+<li id="menu-item-1049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1049 menu-item-design-default"><a href="https://www.htpearl.info/view-360/" class="nav-top-link">VIEW 360*</a></li>
+<li class="html header-button-1">
+	<div class="header-button">
+	<a href="tel:0901027333" class="button secondary is-outline"  style="border-radius:99px;">
+    <span>0901.027.333</span>
+  </a>
+	</div>
+</li>
+
+
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+              <li class="html header-button-1">
+	<div class="header-button">
+	<a href="tel:0901027333" class="button secondary is-outline"  style="border-radius:99px;">
+    <span>0901.027.333</span>
+  </a>
+	</div>
+</li>
+
+
+            </ul>
+          </div>
+
+      </div>
+     
+      </div>
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main">
+			
+				
+  <div class="banner has-hover is-full-height" id="banner-1203428430">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+        </div>
+      </div>
+
+            
+<style>
+#banner-1203428430 {
+  padding-top: 152%;
+}
+#banner-1203428430 .bg.bg-loaded {
+  background-image: url(https://www.htpearl.info/wp-content/uploads/2022/03/HTPEARL_PANO_NIGHT-FINAL.jpg);
+}
+#banner-1203428430 .overlay {
+  background-color: rgba(0, 0, 0, 0.17);
+}
+@media (min-width:550px) {
+  #banner-1203428430 {
+    padding-top: 100%;
+  }
+}
+</style>
+  </div>
+
+
+	<section class="section" id="section_672946904">
+		<div class="bg section-bg fill bg-fill  " >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-small"  id="row-714441481">
+
+	<div id="col-754546218" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+	<div id="text-3231556498" class="text text-justify">
+		
+<h1 style="text-align: center;"><span style="font-size: 130%;"><strong>HT PEARL</strong></span></h1>
+<p style="text-align: center;"><b><i>Khởi nguồn chất Nhật &#8211; Sống trọn An yên</i></b></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Lấy cảm hứng từ những viên ngọc trai Akoya, Kasumi Nhật Bản hoàn hảo, đẹp không tì vết, những nhà thiết kế tài hoa đã tạo nên một <a href="https://www.htpearl.info/"><strong>HT Pearl</strong></a> đẹp đến ngỡ ngàng, thấm đượm tinh thần “Ikigai” của người Nhật, mở ra một miền sống an yên, thư thái đến tận cùng!</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Hãy cùng chúng tôi đắm chìm vào trong một không gian tinh tế, sang trọng, đậm chất “xứ sở hoa anh đào” trong những <strong>căn hộ HT Pearl</strong>!</span></p>
+			</div>
+	
+<p style="text-align: center;"><span style="color: #ab6649;"><em>N</em><em>hận được <strong>BẢNG GIÁ, CHÍNH SÁCH ƯU ĐÃI</strong> và<strong> GIỎ HÀNG</strong> mới nhất từ <strong>CHỦ ĐẦU TƯ</strong></em></span></p>
+<table style="width: 100%; height: 217px;" width="100%">
+<tbody>
+<tr style="height: 56px;">
+<td style="height: 56px;"><strong>✅ Hotline PKD 24/7 (VN)</strong></td>
+<td style="height: 56px;"><span style="font-size: 130%; color: #ed1c24;"><strong>0901 027 333</strong></span></td>
+</tr>
+<tr style="height: 70px;">
+<td style="height: 70px;"><strong>✅ Sale Hotline (EN)</strong></td>
+<td style="height: 70px;"><span style="font-size: 130%; color: #ed1c24;"><strong>0908 457 885</strong></span></td>
+</tr>
+<tr style="height: 70px;">
+<td style="height: 70px;"><strong>✅ Phòng Đại lý/ Đối tác:</strong></td>
+<td style="height: 70px;"><span style="font-size: 130%; color: #ed1c24;"><strong>0934 950 888</strong></span></td>
+</tr>
+<tr style="height: 21px;">
+<td style="height: 21px;"><strong>✅ Email:</strong></td>
+<td style="height: 21px;"><span style="color: #282828;"><strong>info@ht-pearl.net</strong></span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"> </p>
+	<div id="gap-776593162" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-776593162 {
+  padding-top: 21px;
+}
+</style>
+	</div>
+	
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >5 GIÁ TRỊ TUYỆT ĐỈNH LÀM NÊN SỨC HÚT CỦA HT PEARL</span><b></b></h2></div>
+<h3 style="text-align: center;">ĐỊA THẾ TAM CẬN ĐẮC LỘC</h3>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1912023731">
+								<div class="img-inner dark" >
+			<img width="1920" height="1080" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1080" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-HODA_ver3-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1912023731 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div id="text-3122877858" class="text text-justify">
+		
+<p style="text-align: justify;"><span style="font-weight: 400;">“Nhất cận Thị (Chợ Đông Hoà) &#8211; Nhị cận Hồ (Hồ Đá) &#8211; Tam cận Lộ” (Quốc lộ 1K). HT Pearl sở hữu toạ độ phong thuỷ hiếm có giúp thâu thu tài lộc, đại cát hanh thông cho cư dân sinh sống.</span></p>
+			</div>
+	
+	<div id="gap-566411097" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-566411097 {
+  padding-top: 21px;
+}
+</style>
+	</div>
+	
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >Tâm Điểm Giao Thương, Toạ Độ Tụ Tài</span><b></b></h3></div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1900464380">
+								<div class="img-inner dark" >
+			<img width="1020" height="574" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABXgAAAMUAQMAAAA8I91vAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAJ1JREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFwJHd4AAes4ILwAAAAASUVORK5CYII=" class="attachment-large size-large lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-1400x788.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-1536x864.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3.jpg 1920w" data-sizes="auto" /><noscript><img width="1020" height="574" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-1400x788.jpg" class="attachment-large size-large" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3-1536x864.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-Building-TopDown3.jpg 1920w" sizes="(max-width: 1020px) 100vw, 1020px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1900464380 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div id="text-1453491071" class="text text-justify">
+		
+<p style="text-align: justify;"><span style="font-weight: 400;">Nơi giao thoa của “tam giác kinh tế” Sài Gòn, Đồng Nai, Bình Dương, mở ra cơ hội giao thương thịnh vượng với mọi các vùng trọng điểm kinh tế. </span></p>
+			</div>
+	
+	<div id="gap-1759311655" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1759311655 {
+  padding-top: 21px;
+}
+</style>
+	</div>
+	
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >Đầu Tư Mảng Sống Xanh Đa Tầng</span><b></b></h3></div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1818620454">
+								<div class="img-inner dark" >
+			<img width="1920" height="1050" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQaAQMAAACYefc9AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAQtJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4E7cpwAB2TXAlAAAAABJRU5ErkJggg==" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-731x400.jpg 731w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1400x766.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-768x420.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1536x840.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1050" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-731x400.jpg 731w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1400x766.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-768x420.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1536x840.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1818620454 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div id="text-3312961828" class="text text-justify">
+		
+<p style="text-align: justify;"><span style="font-weight: 400;">Căn hộ HT Pearl kiến tạo giá trị sống nhân văn với diện tích lên tới 2.800m² nhằm mang đến đến không gian xanh đúng nghĩa, trong lành, thanh mát đến từng hơi thở!</span></p>
+			</div>
+	
+	<div id="gap-1661709627" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1661709627 {
+  padding-top: 21px;
+}
+</style>
+	</div>
+	
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >30 Tiện Ích Nội Khu Sang Xịn</span><b></b></h3></div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2086619792">
+								<div class="img-inner dark" >
+			<img width="1920" height="1080" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1080" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_2086619792 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div id="text-513744534" class="text text-justify">
+		
+<p style="text-align: justify;"><span style="font-weight: 400;">HT Pearl mang đẳng cấp theo tiêu chuẩn Nhật Bản, mở ra một cuộc sống an yên, thư thái, sang trọng, tiện nghi cho cư dân HT Pearl.</span></p>
+			</div>
+	
+	<div id="gap-1163904269" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1163904269 {
+  padding-top: 21px;
+}
+</style>
+	</div>
+	
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >Thiết Kế Căn Hộ Theo Phong Cách Nhật Bản</span><b></b></h3></div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1280837937">
+								<div class="img-inner dark" >
+			<img width="1920" height="1280" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAUAAQMAAACcQ910AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAUJJREFUGBntwQENAAAAwiD7p34ON2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwI0AtTwAAb3/K1kAAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-600x400.jpg 600w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1200x800.jpg 1200w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-768x512.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1536x1024.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1280" src="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-600x400.jpg 600w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1200x800.jpg 1200w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-768x512.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1280837937 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div id="text-2822581640" class="text text-justify">
+		
+<p style="text-align: justify;"><span style="font-weight: 400;">Căn hộ HT Pealr tối giản nhưng không hề đơn giản, tinh tế đến từng chi tiết. Dịch vụ chuẩn Nhật “Omotenashi” &#8211; cung cách tiếp đón hoàn hảo, tận tâm.</span></p>
+			</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_672946904 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_672946904 .section-bg.bg-loaded {
+  background-image: url(https://www.htpearl.info/wp-content/uploads/2021/12/bg_ss4.jpg);
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1921253817">
+		<div class="bg section-bg fill bg-fill  " >
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-small"  id="row-1208425988">
+
+	<div id="col-694342056" class="col medium-6 small-12 large-6"  data-animate="bounceInLeft">
+				<div class="col-inner"  >
+			
+			
+<h2><span style="color: #ffffff; font-family: helvetica, arial, sans-serif;">TỔNG QUAN DỰ ÁN HT PEARL</span></h2>
+
+<table id="tablepress-1" class="tablepress tablepress-id-1">
+<tbody>
+<tr class="row-1">
+	<td class="column-1">✅ <span style="color: #ffffff;">Tên dự án:</td><td class="column-2"><span style="color: #ffffff;">HT PEARL</span></td>
+</tr>
+<tr class="row-2">
+	<td class="column-1">✅<span style="color: #ffffff;"> Vị trí dự án:</span></td><td class="column-2"><span style="color: #ffffff;">29 Nguyễn Bỉnh Khiêm, KP Tân Hòa, phường Đông Hòa, TP Dĩ An, Bình Dương</span></td>
+</tr>
+<tr class="row-3">
+	<td class="column-1">✅ <span style="color: #ffffff;">Chủ đầu tư:</td><td class="column-2"><span style="color: #ffffff;">Công ty TNHH Đầu Tư và xây Dựng Nhà Hưng Thịnh - HT Pearl</span></td>
+</tr>
+<tr class="row-4">
+	<td class="column-1">✅ <span style="color: #ffffff;">Quy mô dự án:</span></td><td class="column-2"><span style="color: #ffffff;">2 block, 36 tầng:<br />
+- 1 phòng ngủ: 45m2 – 59m2	<br />
+- 1 phòng ngủ +1: 55m2 56m2 60m2<br />
+- 2 phòng ngủ: 68m2 – 77m2	 <br />
+- 3 phòng ngủ: 88m2 89m2 – 118m2	 <br />
+- PenHouse: 112m2 143m2 144m2 145m2 149m2 233m2</span></td>
+</tr>
+<tr class="row-5">
+	<td class="column-1">✅ <span style="color: #ffffff;">Pháp lý:</span></td><td class="column-2"><span style="color: #ffffff;">1/500, GPXD,...<br />
+Người Việt Nam: lâu dài<br />
+Người nước ngoài: 50 năm</span></td>
+</tr>
+<tr class="row-6">
+	<td class="column-1">✅ <span style="color: #ffffff;">Bàn giao:</span></td><td class="column-2"><span style="color: #ffffff;">Dự kiến Quý 1/2023</span></td>
+</tr>
+<tr class="row-7">
+	<td class="column-1">✅ <span style="color: #ffffff;">Tiến độ thi công:</span></td><td class="column-2"><span style="color: #ffffff;">Đang thi công tới Tầng 4</span></td>
+</tr>
+<tr class="row-8">
+	<td class="column-1">✅ <span style="color: #ffffff;">Hotline PKD:</span></td><td class="column-2"><span style="color: #ffffff;">0901.027.333</span></td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->
+		</div>
+					</div>
+
+	
+
+	<div id="col-2045314280" class="col medium-6 small-12 large-6"  data-animate="bounceInRight">
+				<div class="col-inner"  >
+			
+			
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1921253817 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_1921253817 .section-bg-overlay {
+  background-color: rgba(0, 0, 0, 0.63);
+}
+#section_1921253817 .section-bg.bg-loaded {
+  background-image: url(https://www.htpearl.info/wp-content/uploads/2022/03/right.jpg);
+}
+</style>
+	</section>
+	
+<span class="scroll-to" data-label="Scroll to: #vi-tri" data-bullet="true" data-link="#vi-tri" data-title="Vi tri"><a name="vi-tri"></a></span>
+	<section class="section" id="section_187947832">
+		<div class="bg section-bg fill bg-fill  " >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >VỊ TRÍ DỰ ÁN KHU CĂN HỘ HT PEARL</span><b></b></h2></div>
+<div class="row row-small"  id="row-128731772">
+
+	<div id="col-458198080" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+	<div id="text-536003267" class="text text-justify">
+		
+<p><span style="font-weight: 400;">Tọa lạc tại cửa ngõ thành phố Thủ Đức &#8211; vùng đất vàng hứa hẹn trở thành Khu đô thị mới tiềm năng của khu vực Đông Nam Á, <strong>HT Pearl</strong> hưởng lợi lớn khi trở thành nơi giao thoa của các vùng kinh tế trọng điểm phía Nam: thành phố Hồ Chí Minh, Bình Dương, Đồng Nai.</span></p>
+<p><span style="font-weight: 400;">Đặc biệt, <strong>dự án HT Pearl</strong> c</span><span style="font-weight: 400;">ách Quốc lộ 1K chưa đầy 200m, đây là trục đường huyết mạch nối liền các trung tâm kinh tế với mức đầu tư lên đến </span><span style="font-weight: 400;">387 tỷ đồng. Nhờ đó, việc giao thương kinh tế và di chuyển đến các thành phố lớn, các khu vực lân cận được dễ dàng và thuận tiện hơn bao giờ hết.</span></p>
+			</div>
+	
+	<div id="gap-775234777" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-775234777 {
+  padding-top: 20px;
+}
+</style>
+	</div>
+	
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" >
+						<div class="" >
+				<img width="1920" height="1373" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAVdAQMAAAAsU8ZdAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAVdJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAiDNgAAYxy3IsAAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-559x400.jpg 559w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-1119x800.jpg 1119w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-768x549.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-1536x1099.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-2048x1465.jpg 2048w" data-sizes="auto" /><noscript><img width="1920" height="1373" src="https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-559x400.jpg 559w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-1119x800.jpg 1119w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-768x549.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-1536x1099.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/vi-tri-2048x1465.jpg 2048w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>											</div>
+					</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<p><em>Vị trí dự án Astral City</em></p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="text-664389536" class="text text-justify">
+		
+<p style="text-align: justify;"><span style="font-weight: 400;">Không chỉ vậy, việc đẩy mạnh đầu tư hạ tầng giao thông tại Dĩ An, Bình Dương cũng góp phần không nhỏ làm nên “toạ độ vàng” của HT Pearl: </span><span style="font-weight: 400;">Tuyến Metro số 1, Quốc lộ 1A, Quốc lộ 1K, Xa lộ Hà Nội, </span><span style="font-weight: 400;">Cao Tốc Mỹ Phước Tân Vạn, DT 743B, </span><span style="font-weight: 400;">Đường sắt Bắc – Nam, Ga Dĩ An, Đại lộ Phạm Văn Đồng, Bến xe Miền Đông mới…</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Ngoài ra, dự án </span><span style="font-weight: 400;">HT Pearl được xây dựng tại </span><span style="font-weight: 400;">thành phố Dĩ An &#8211; một trong 3 “chân kiềng” về kinh tế của toàn tỉnh Bình Dương với tốc độ phát triển kinh tế luôn ở mức hai con số, trung bình 16 &#8211; 17%/năm. Có thể nói, Dĩ An là một thành phố trẻ mang trong mình nội lực phát triển vượt bậc, hứa hẹn sẽ tạo ra sự bùng nổ trong tương lai.</span></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Đặc biệt, thành phố Dĩ An là nơi có mật độ dân số cao nhất toàn tỉnh Bình Dương, nơi đây thu hút 25.000 chuyên gia, cấp quản lý làm việc trong các khu công nghiệp. Điều này đòi hỏi nhu cầu cấp thiết về nhà ở, đồng thời mở ra cơ hội kinh doanh, thuê mua căn hộ cho các nhà đầu tư biết nắm bắt thị trường!</span></p>
+<p style="text-align: justify;"><b><i>&gt;&gt; Nếu bạn là một nhà đầu tư, đừng bỏ lỡ cơ hội đầu tư sinh lời từ </i></b><b><i>HT Pearl, ĐẶT GIỮ CHỖ ngay!</i></b></p>
+			</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_187947832 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_187947832 .section-bg.bg-loaded {
+  background-image: url(https://www.htpearl.info/wp-content/uploads/2021/12/bg_ss4.jpg);
+}
+</style>
+	</section>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1276202106">
+						<div data-animate="bounceInUp">		<div class="img-inner dark" >
+			<img width="1920" height="1080" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1080" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+		</div>						
+<style>
+#image_1276202106 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+<span class="scroll-to" data-label="Scroll to: #tien-ich" data-bullet="true" data-link="#tien-ich" data-title="Tien ich"><a name="tien-ich"></a></span>
+	<section class="section" id="section_863938381">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-small"  id="row-136968207">
+
+	<div id="col-564328823" class="col small-12 large-12"  data-animate="bounceInUp">
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >TIỆN ÍCH NỘI KHU HT PEARL</span><b></b></h2></div>
+<p style="text-align: justify;"><span style="font-weight: 400;">Với triết lý “Kiến tạo giá trị nhân văn”, chú trọng đến sức khoẻ con người, chủ đầu tư dự án HT Pearl đã dành tới 1/3 diện tích đất dự án cho việc xây dựng mảng sống xanh, tạo nên một không gian trong lành, thanh khiết đến từng hơi thở!</span><b><i></i></b></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1266 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQaAQMAAACYefc9AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAQtJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4E7cpwAB2TXAlAAAAABJRU5ErkJggg==" alt="" width="1920" height="1050"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-731x400.jpg 731w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1400x766.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-768x420.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1536x840.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1266" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg" alt="" width="1920" height="1050" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-731x400.jpg 731w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1400x766.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-768x420.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL-bc1-1536x840.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Đặt chân vào </span><span style="font-weight: 400;">HT Pearl, bạn sẽ ngỡ như mình lạc vào khu rừng nhiệt đới mát mẻ, trong lành, đem đến một cảm giác khoan khoái vô cùng dễ chịu.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Đặc biệt, </span><span style="font-weight: 400;">HT Pearl được</span><span style="font-weight: 400;"> xây dựng theo mô hình “All-in-one” (Tất cả trong một), mô hình áp dụng phổ biến tại các nước phương Tây, cư dân </span><span style="font-weight: 400;">sẽ được hưởng trọn vẹn những tiện ích tinh thần, chăm sóc sức khỏe, đời sống đa dạng mà chẳng cần mất công đi xa.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Bể bơi tràn bờ Panorama cho những giây phút thư thái sải mình giữa làn nước trong xanh, xóa tan mệt mỏi sau những giờ làm việc căng thẳng.</span></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1273 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" alt="" width="1920" height="1080"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1273" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg" alt="" width="1920" height="1080" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL1-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1275 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" alt="" width="1920" height="1080"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1275" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B.jpg" alt="" width="1920" height="1080" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_POOL2B-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Sảnh đón tiếp HT Pearl tiêu chuẩn 5 sao đẳng cấp.</span></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1276 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" alt="" width="1920" height="1080"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1276" src="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02.jpg" alt="" width="1920" height="1080" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View02-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Vườn nướng BBQ cho gia đình có những giây phút thảnh thơi bên nhau, thắt chặt tình thân…</span></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1277 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB24AAAQuAQMAAAAuuY9EAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAQ5JREFUGBntwTEBAAAAwiD7p14Hb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwCHnHwABSDhMSQAAAABJRU5ErkJggg==" alt="" width="1902" height="1070"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1.jpg 1902w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1277" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1.jpg" alt="" width="1902" height="1070" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1.jpg 1902w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP_BBQ-update1-1536x864.jpg 1536w" sizes="(max-width: 1902px) 100vw, 1902px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Hệ thống phòng tập Gym, Yoga với hệ thống máy móc hiện đại, giúp tăng cường thể chất và sức khỏe cho cư dân HT Pearl.</span></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1265 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" alt="" width="1920" height="1080"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1265" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg" alt="" width="1920" height="1080" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-GYM-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1278 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB24AAAQuAQMAAAAuuY9EAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAQ5JREFUGBntwTEBAAAAwiD7p14Hb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwCHnHwABSDhMSQAAAABJRU5ErkJggg==" alt="" width="1902" height="1070"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA.jpg 1902w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1278" src="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA.jpg" alt="" width="1902" height="1070" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA.jpg 1902w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/HTP-YOGA-1536x864.jpg 1536w" sizes="(max-width: 1902px) 100vw, 1902px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Nhà trẻ Quốc tế chuẩn Nhật an toàn với những phương pháp giáo dục hiện đại, tiên tiến.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Trung tâm thương mại với đa dạng các mặt hàng phục vụ nhu cầu đời sống của cư dân.</span></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1279 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" alt="" width="1920" height="1080"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TTTM.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TTTM.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1279" src="https://www.htpearl.info/wp-content/uploads/2022/03/TTTM.jpg" alt="" width="1920" height="1080" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TTTM.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TTTM-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Vườn trên cao tầng  3, 17, 35 cho những giây phút hoà mình với thiên nhiên, sống chậm và cảm nhận cuộc sống.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Khu trang trí nghệ thuật dành cho những tín đồ đam mê cái đẹp.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">⇥ Khu vui chơi giải trí rộng rãi với những trò chơi vui nhộn giúp con trẻ vui vẻ thoải mái tinh thần, kích thích óc sáng tạo.</span></p>
+<p style="text-align: justify;"><img class="alignnone size-full wp-image-1280 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" alt="" width="1920" height="1080"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1280" src="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8.jpg" alt="" width="1920" height="1080" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-8-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript> <img class="alignnone size-full wp-image-1281 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" alt="" width="1920" height="1080"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-1536x864.jpg 1536w" data-sizes="auto" /><noscript><img class="alignnone size-full wp-image-1281" src="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9.jpg" alt="" width="1920" height="1080" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-711x400.jpg 711w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-1400x788.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-768x432.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/Du-an-can-ho-HT-Pearl-Di-An-Binh-Duong-9-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><b><i>&gt;&gt;&gt; Gọi HOTLINE cho chúng tôi để nhận được mức giá ƯU ĐÃI!</i></b></p>
+		</div>
+					</div>
+
+	
+
+	<div id="col-1487697988" class="col small-12 large-12"  data-animate="bounceInUp">
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >MỘT BƯỚC CHÂN - NGÀN TIỆN ÍCH</span><b></b></h3></div>
+	<div id="text-1232895856" class="text text-justify">
+		
+<p style="text-align: justify;"><img class="size-full wp-image-1284 aligncenter lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAL7AQMAAADd9dUnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAKFJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgTzNtAAE3wGODAAAAAElFTkSuQmCC" alt="" width="1500" height="763"   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu.jpg 1500w, https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu-786x400.jpg 786w, https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu-1400x712.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu-768x391.jpg 768w" data-sizes="auto" /><noscript><img class="size-full wp-image-1284 aligncenter" src="https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu.jpg" alt="" width="1500" height="763" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu.jpg 1500w, https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu-786x400.jpg 786w, https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu-1400x712.jpg 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/ngoai-khu-768x391.jpg 768w" sizes="(max-width: 1500px) 100vw, 1500px" data-eio="l" /></noscript></p>
+<p style="text-align: justify;"><b>⇥ Địa điểm vui chơi giải trí: </b><span style="font-weight: 400;">Sân thể thao Quốc Phòng, Rừng Hải Thượng Lãn Ông, Khu du lịch Sinh thái Thuỷ Châu, Khu du lịch Suối Tiên, Sân bóng Thành Nam, Sân vận động Dĩ An,&#8230; </span></p>
+<p style="text-align: justify;"><b>⇥ Hệ thống trường học giáo dục từ cấp tiểu học đến đại học:</b><span style="font-weight: 400;"> Trường tiểu học Nguyễn Bỉnh Khiêm, Trường tiểu học Đông Hòa B, Trường tiểu học Đông Hòa, Trường THCS Đông Hòa, Trường THPT Bình An, Đại học Quốc gia Thành phố Hồ Chí Minh, Cao đẳng Công nghiệp Nông Lâm Đông Nam Bộ, Khoa Y Đại học Quốc gia TP HCM, Trung tâm Giáo dục Quốc phòng An ninh, Cao đẳng CNC Đồng An, Làng Đại Học với chuỗi 8 trường đại học,&#8230; </span></p>
+<p style="text-align: justify;"><b>⇥ Trung tâm mua sắm và chợ dân sinh:</b><span style="font-weight: 400;"> Chợ Bình An, Chợ Linh Xuân, Chợ Dĩ An, Big C Dĩ An, Bình Dương, Đại Siêu thị Go! Dĩ An,&#8230; </span></p>
+<p style="text-align: justify;"><b>⇥ Trung tâm hành chính:</b><span style="font-weight: 400;"> UBND phường Đông Hòa, Trung tâm Hành chính Dĩ An,&#8230; </span></p>
+<p style="text-align: justify;"><b>⇥ Hệ thống bệnh viện, y tế:</b><span style="font-weight: 400;"> Bệnh Viện Đa Khoa Quốc Tế Hoàn Mỹ, Bệnh viện Ung Bướu,&#8230;  </span></p>
+			</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_863938381 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_618204810">
+						<div data-animate="bounceInUp">		<div class="img-inner dark" >
+			<img width="1920" height="1435" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAWbAQMAAADr4jv0AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAWZJREFUGBntwTEBAAAAwiD7p14LL2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8BRzYAAeUZ9R8AAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-535x400.jpg 535w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-1070x800.jpg 1070w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-768x574.jpg 768w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-1536x1148.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1435" src="https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-535x400.jpg 535w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-1070x800.jpg 1070w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-768x574.jpg 768w, https://www.htpearl.info/wp-content/uploads/2021/12/astral-city-4_optimized-1536x1148.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+		</div>						
+<style>
+#image_618204810 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+<span class="scroll-to" data-label="Scroll to: #mat-bang" data-bullet="true" data-link="#mat-bang" data-title="Mặt bằng"><a name="mat-bang"></a></span>
+<div class="row row-small"  id="row-1459866713">
+
+	<div id="col-1845171936" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >MẶT BẰNG TẦNG CĂN HỘ HT PEARL</span><b></b></h2></div>
+	<div id="text-3101811688" class="text text-justify">
+		
+<p style="text-align: justify;"><strong>Với thiết kế mặt bằng tổng thể dự án căn hộ HT Pearl, bạn sẽ nắm được toàn bộ các thông tin về hệ thống đường xá, cách quy hoạch các hệ thống đường xá, cây cối, các khu chức năng đã và sẽ có trong dự án.</strong></p>
+			</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1488305920">
+						<div data-animate="bounceInUp">		<div class="img-inner dark" >
+			<img width="1920" height="1358" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAVOAQMAAACpEbZoAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAVRJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcC/qoAAbz3YM4AAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-1536x1086.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1358" src="https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/MAT-BANG-TANG-DIEN-HINH-_-TIEN-ICH-1536x1086.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+		</div>						
+<style>
+#image_1488305920 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_236553293">
+								<div class="img-inner dark" >
+			<img width="1020" height="721" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABGsAAAMgAQMAAACu333/AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAIVJREFUGBntwTEBAAAAwiD7p14LL2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBNvu8AAQwgPiEAAAAASUVORK5CYII=" class="attachment-large size-large lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-1131x800.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1.jpg 1920w" data-sizes="auto" /><noscript><img width="1020" height="721" src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-1131x800.jpg" class="attachment-large size-large" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-1.jpg 1920w" sizes="(max-width: 1020px) 100vw, 1020px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_236553293 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_586369856">
+								<div class="img-inner dark" >
+			<img width="1020" height="721" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABGsAAAMgAQMAAACu333/AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAIVJREFUGBntwTEBAAAAwiD7p14LL2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBNvu8AAQwgPiEAAAAASUVORK5CYII=" class="attachment-large size-large lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-1131x800.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2.jpg 1920w" data-sizes="auto" /><noscript><img width="1020" height="721" src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-1131x800.jpg" class="attachment-large size-large" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-2.jpg 1920w" sizes="(max-width: 1020px) 100vw, 1020px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_586369856 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_719091497">
+								<div class="img-inner dark" >
+			<img width="1020" height="721" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABGsAAAMgAQMAAACu333/AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAIVJREFUGBntwTEBAAAAwiD7p14LL2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBNvu8AAQwgPiEAAAAASUVORK5CYII=" class="attachment-large size-large lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-1131x800.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20.jpg 1920w" data-sizes="auto" /><noscript><img width="1020" height="721" src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-1131x800.jpg" class="attachment-large size-large" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-20.jpg 1920w" sizes="(max-width: 1020px) 100vw, 1020px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_719091497 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2101273920">
+								<div class="img-inner dark" >
+			<img width="1020" height="721" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABGsAAAMgAQMAAACu333/AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAIVJREFUGBntwTEBAAAAwiD7p14LL2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBNvu8AAQwgPiEAAAAASUVORK5CYII=" class="attachment-large size-large lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-1131x800.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35.jpg 1920w" data-sizes="auto" /><noscript><img width="1020" height="721" src="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-1131x800.jpg" class="attachment-large size-large" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-1131x800.jpg 1131w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-566x400.jpg 566w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-768x543.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35-1536x1086.jpg 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/TANG-35.jpg 1920w" sizes="(max-width: 1020px) 100vw, 1020px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_2101273920 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div id="gap-650077145" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-650077145 {
+  padding-top: 15px;
+}
+</style>
+	</div>
+	
+<span class="scroll-to" data-label="Scroll to: #thiet-ke" data-bullet="true" data-link="#thiet-ke" data-title="Thiet ke"><a name="thiet-ke"></a></span>
+<div class="row row-small"  id="row-1699528501">
+
+	<div id="col-2081872654" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >THIẾT KẾ CĂN HỘ HT PEARL - DĨ AN BÌNH DƯƠNG</span><b></b></h2></div>
+	<div id="text-1106138961" class="text text-justify">
+		
+<p style="text-align: justify;"><strong>Lấy cảm hứng từ những loại ngọc trai nước mặn Akoya tháp A và ngọc trai nước ngọt Kasumi tháp B, các kiến trúc sư đến từ thương hiệu Kume Design Asia lừng danh đã tạo ra những căn hộ tuyệt đẹp, những không gian sống lý tưởng mà bất kỳ ai cũng mơ ước!</strong></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Đi sâu vào thiết kế bên trong, bạn sẽ phải trầm trồ bởi lối thiết kế tinh tế, đơn giản đậm chất Nhật Bản!</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Lược bỏ tối đa sự rườm rà, loại bỏ các chi tiết thừa và tận dụng tối đa diện tích để tạo nên một không gian thông thoáng, đơn giản mà không kém phần sang trọng, hiện đại. Đồ nội thất đa phần sử dụng tông màu gỗ sáng giúp không gian trở nên ấm cúng hơn.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Đặc biệt, để tận dụng tối đa năng lượng từ ánh sáng và khí trời, nhà thiết kế đã tạo ra những khoảng hở tinh tế khiến không gian trong nhà luôn ngập tràn gió trời và sức sống!</span></p>
+			</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2100848827">
+						<div data-animate="bounceInUp">		<div class="img-inner dark" >
+			<img width="1920" height="1080" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARJJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBU+OUAARAVzPEAAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01.png" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01.png 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-711x400.png 711w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-1400x788.png 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-768x432.png 768w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-1536x864.png 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-2048x1152.png 2048w" data-sizes="auto" /><noscript><img width="1920" height="1080" src="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01.png" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01.png 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-711x400.png 711w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-1400x788.png 1400w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-768x432.png 768w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-1536x864.png 1536w, https://www.htpearl.info/wp-content/uploads/2022/03/210511-Sanh-View01-2048x1152.png 2048w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+		</div>						
+<style>
+#image_2100848827 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+<div class="row row-small"  id="row-728620096">
+
+	<div id="col-793051762" class="col small-12 large-12"  data-animate="bounceInUp">
+				<div class="col-inner"  >
+			
+			
+	<div id="gap-839685528" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-839685528 {
+  padding-top: 30px;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+<div class="row row-collapse row-full-width"  id="row-1215069473">
+
+	<div id="col-812764676" class="col medium-6 small-12 large-6"  data-animate="bounceInLeft">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1215526887">
+								<div class="img-inner dark" >
+			<img width="1024" height="1066" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQqAQMAAADj5J+QAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAJtJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuBRlIAAFFEAZPAAAAAElFTkSuQmCC" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN-384x400.jpg 384w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN-768x800.jpg 768w" data-sizes="auto" /><noscript><img width="1024" height="1066" src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN-384x400.jpg 384w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN-768x800.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1215526887 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-2088686588" class="col medium-6 small-12 large-6"  data-animate="bounceInRight">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1012473222">
+								<div class="img-inner dark" >
+			<img width="1920" height="1280" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAUAAQMAAACcQ910AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAUJJREFUGBntwQENAAAAwiD7p34ON2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwI0AtTwAAb3/K1kAAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-600x400.jpg 600w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-1200x800.jpg 1200w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-768x512.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-1536x1024.jpg 1536w" data-sizes="auto" /><noscript><img width="1920" height="1280" src="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1.jpg 1920w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-600x400.jpg 600w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-1200x800.jpg 1200w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-768x512.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/1-1PN-Phong-Khach_2-1-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1012473222 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+<div class="row row-collapse row-full-width"  id="row-2040310338">
+
+	<div id="col-1986326853" class="col medium-6 small-12 large-6"  data-animate="bounceInLeft">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1042183809">
+								<div class="img-inner dark" >
+			<img width="1024" height="1066" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQqAQMAAADj5J+QAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAJtJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuBRlIAAFFEAZPAAAAAElFTkSuQmCC" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1-384x400.jpg 384w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1-768x800.jpg 768w" data-sizes="auto" /><noscript><img width="1024" height="1066" src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1-384x400.jpg 384w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-1PN1-768x800.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1042183809 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-216757128" class="col medium-6 small-12 large-6"  data-animate="bounceInRight">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1897485400">
+								<div class="img-inner dark" >
+			<img width="1024" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAMAAQMAAACAdIdOAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAHZJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHsBgw8AAQKYnC0AAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B-533x400.jpg 533w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B-768x576.jpg 768w" data-sizes="auto" /><noscript><img width="1024" height="768" src="https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B-533x400.jpg 533w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-A2B-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1897485400 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+<div class="row row-collapse row-full-width"  id="row-1852156787">
+
+	<div id="col-706819431" class="col medium-6 small-12 large-6"  data-animate="bounceInLeft">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1259700878">
+								<div class="img-inner dark" >
+			<img width="1024" height="1066" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQqAQMAAADj5J+QAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAJtJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuBRlIAAFFEAZPAAAAAElFTkSuQmCC" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN-384x400.jpg 384w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN-768x800.jpg 768w" data-sizes="auto" /><noscript><img width="1024" height="1066" src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN-384x400.jpg 384w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-2PN-768x800.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1259700878 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-1948948931" class="col medium-6 small-12 large-6"  data-animate="bounceInRight">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1400708205">
+								<div class="img-inner dark" >
+			<img width="1024" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAMAAQMAAACAdIdOAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAHZJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHsBgw8AAQKYnC0AAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2-533x400.jpg 533w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2-768x576.jpg 768w" data-sizes="auto" /><noscript><img width="1024" height="768" src="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2-533x400.jpg 533w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_2-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1400708205 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+<div class="row row-collapse row-full-width"  id="row-2084236764">
+
+	<div id="col-558256487" class="col medium-6 small-12 large-6"  data-animate="bounceInLeft">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_722356803">
+								<div class="img-inner dark" >
+			<img width="1024" height="1017" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAP5AQMAAACy6c+fAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAJZJREFUGBntwTEBAAAAwiD7p14MH2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbwEAlwAB/pkcvwAAAABJRU5ErkJggg==" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN-403x400.jpg 403w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN-806x800.jpg 806w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN-768x763.jpg 768w" data-sizes="auto" /><noscript><img width="1024" height="1017" src="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN-403x400.jpg 403w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN-806x800.jpg 806w, https://www.htpearl.info/wp-content/uploads/2022/03/new-HT-Pearl-MB-Can-ho-3PN-768x763.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_722356803 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-1798841851" class="col medium-6 small-12 large-6"  data-animate="bounceInRight">
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_332915999">
+								<div class="img-inner dark" >
+			<img width="1024" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAMAAQMAAACAdIdOAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAHZJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHsBgw8AAQKYnC0AAAAASUVORK5CYII=" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1-533x400.jpg 533w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1-768x576.jpg 768w" data-sizes="auto" /><noscript><img width="1024" height="768" src="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1.jpg 1024w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1-533x400.jpg 533w, https://www.htpearl.info/wp-content/uploads/2022/03/TT-B1_1-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_332915999 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+	<section class="section" id="section_447377392">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<span class="scroll-to" data-label="Scroll to: #giaban" data-bullet="true" data-link="#giaban" data-title="Giá bán"><a name="giaban"></a></span>
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >GIÁ BÁN TỪ CHỦ ĐẦU TƯ CĂN HỘ HT PEARL 2022</span><b></b></h2></div>
+<div class="row"  id="row-1340059683">
+
+	<div id="col-2138650885" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<p style="text-align: justify;"><strong>Căn hộ HT Pearl hiện có giá từ 33 triệu/m2. Giá căn hộ cao cấp 1 phòng ngủ là 1.4 tỷ/căn. </strong></p>
+<p style="text-align: justify;">Hiện nay dự án đang hỗ trợ khách hàng <strong>BOOKING VỊ TRÍ ƯU TIÊN.</strong></p>
+<table style="width: 100%;" border="1" cellspacing="1" cellpadding="1">
+<tbody>
+<tr>
+<td style="width: 27.5862%; text-align: center;"><strong>Loại hình căn hộ</strong></td>
+<td style="width: 22.6601%; text-align: center;"><strong>Số phòng ngủ</strong></td>
+<td style="width: 34.7291%; text-align: center;"><strong>Diện tích  (Tim tường)</strong></td>
+<td style="width: 17.4877%; text-align: center;"><strong>Giá bán</strong></td>
+</tr>
+<tr>
+<td style="width: 27.5862%; text-align: center;"><strong>1 phòng ngủ</strong></td>
+<td style="width: 22.6601%; text-align: center;">1</td>
+<td style="width: 34.7291%; text-align: center;">45m2 – 59m2</td>
+<td style="width: 17.4877%; text-align: center;"> </td>
+</tr>
+<tr>
+<td style="width: 27.5862%; text-align: center;" rowspan="2"><strong>2 phòng ngủ</strong></td>
+<td style="width: 22.6601%; text-align: center;">1+1</td>
+<td style="width: 34.7291%; text-align: center;">55m2 56m2 60m2</td>
+<td style="width: 17.4877%; text-align: center;"> </td>
+</tr>
+<tr>
+<td style="width: 22.6601%; text-align: center;">2</td>
+<td style="width: 34.7291%; text-align: center;">68m2 – 77m2</td>
+<td style="width: 17.4877%; text-align: center;"> </td>
+</tr>
+<tr>
+<td style="width: 27.5862%; text-align: center;"><strong>3 phòng ngủ</strong></td>
+<td style="width: 22.6601%; text-align: center;">3</td>
+<td style="width: 34.7291%; text-align: center;">88m2 89m2 – 118m2</td>
+<td style="width: 17.4877%; text-align: center;"> </td>
+</tr>
+<tr>
+<td style="width: 27.5862%; text-align: center;"><strong>PenHouse</strong></td>
+<td style="width: 22.6601%; text-align: center;">N/A</td>
+<td style="width: 34.7291%; text-align: center;">112m2 143m2 144m2 145m2 149m2 233m2</td>
+<td style="width: 17.4877%; text-align: center;"> </td>
+</tr>
+</tbody>
+</table>
+<p id="phuong-thuc-thanh-toan-astral-city" style="text-align: center;"><em>L</em><em>iên hệ ngay<strong> <span style="color: #ed1c24;">0901 027 333</span></strong> </em><em>để nhận được <span style="color: #ed1c24;"><strong>BẢNG GIÁ CHÍNH XÁC THEO MÃ CĂN, CHÍNH SÁCH ƯU ĐÃI</strong></span> và<strong> <span style="color: #ed1c24;">GIỎ HÀNG</span></strong> mới nhất <span style="color: #ed1c24;"><strong>T3/2022</strong></span>.</em></p>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_447377392 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+<span class="scroll-to" data-label="Scroll to: #thanhtoan" data-bullet="true" data-link="#thanhtoan" data-title="Thanh toán"><a name="thanhtoan"></a></span>
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >Phương thức thanh toán</span><b></b></h2></div>
+<div class="row row-small"  id="row-54523737">
+
+	<div id="col-68904684" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+	<div id="text-1085703225" class="text text-justify">
+		
+<p style="text-align: justify;"><span style="font-weight: 400;">Hiện chủ đầu tư HT PEARL áp dụng các phương thức thanh toán vô cùng linh hoạt với ưu đãi cực kỳ hấp dẫn.  Chủ đầu tư sẽ hỗ trợ lãi suất 0% cho nhà đầu tư đến thời điểm bàn giao căn hộ HT Pearl tối đa không quá 24 tháng. </span></p>
+			</div>
+	
+<div class="row"  id="row-69216512">
+
+	<div id="col-1506771512" class="col medium-6 small-12 large-6"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >Phương thức thanh toán</span><b></b></h3></div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2106458979">
+								<div class="img-inner dark" >
+			<img width="1242" height="1663" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNoAAAZ/AQMAAABgCwh9AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAARNJREFUGBntwQEBAAAAgqD+r3ZIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBnAfwQAAGiPx7rAAAAAElFTkSuQmCC" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202.jpg 1242w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-299x400.jpg 299w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-597x800.jpg 597w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-768x1028.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-1147x1536.jpg 1147w" data-sizes="auto" /><noscript><img width="1242" height="1663" src="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202.jpg" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202.jpg 1242w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-299x400.jpg 299w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-597x800.jpg 597w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-768x1028.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0005-1-e1647742544202-1147x1536.jpg 1147w" sizes="(max-width: 1242px) 100vw, 1242px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_2106458979 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-1519413283" class="col medium-6 small-12 large-6"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >Bảng tính dòng tiền</span><b></b></h3></div>
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_716116382">
+								<div class="img-inner dark" >
+			<img width="609" height="800" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmEAAAMgAQMAAABRSCd1AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAFNJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBrAfPAAAHbhYR/AAAAAElFTkSuQmCC" class="attachment-large size-large lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-609x800.jpg" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-609x800.jpg 609w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-305x400.jpg 305w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-768x1008.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350.jpg 1110w" data-sizes="auto" /><noscript><img width="609" height="800" src="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-609x800.jpg" class="attachment-large size-large" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-609x800.jpg 609w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-305x400.jpg 305w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350-768x1008.jpg 768w, https://www.htpearl.info/wp-content/uploads/2022/03/211221-HT-Pearl-Cam-nang-tu-van_page-0006-e1647741894350.jpg 1110w" sizes="(max-width: 609px) 100vw, 609px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_716116382 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+<div class="row"  id="row-377781196">
+
+	<div id="col-244576605" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+		</div>
+					</div>
+
+	
+
+	<div id="col-1156604750" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner text-center"  >
+			
+			
+<a href="#tai-bang-gia" target="_self" class="button primary is-gloss"  >
+    <span>TẢI FULL BẢNG TÍNH DÒNG TIỀN</span>
+  </a>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1773298744" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+		</div>
+					</div>
+
+	
+</div>
+<span class="scroll-to" data-label="Scroll to: #uudai" data-bullet="true" data-link="#uudai" data-title="Ưu đãi"><a name="uudai"></a></span>
+	<div id="text-2787931252" class="text text-justify">
+		
+<p style="text-align: left;"><em><span style="color: #ed1c24;"><strong>Các chính sách Ưu đãi sau đều được cộng dồn:</strong></span></em></p>
+<p style="text-align: left;"><span style="color: #ab6649;"><strong>Check in căn hộ mẫu</strong></span>: <span style="color: #ab6649;"><strong>50.000.000đ</strong></span>/ sản phẩm (áp dụng tới 26/3)</p>
+<p style="text-align: left;"><span style="color: #ab6649;"><strong>Tuần lễ vàng</strong></span>: <span style="color: #ab6649;"><strong>15.000.000đ</strong></span>/ sản phẩm (áp dụng 26/3)</p>
+<p style="text-align: left;"><span style="color: #ab6649;"><strong>Chính sách mua sỉ Chiết khấu tới 1,5%/sản phẩm</strong></span></p>
+<p><span style="color: #ed1c24;"><strong><em>(*) Lưu ý quan trọng:</em></strong></span></p>
+<p><strong>Đối với phương thức thanh toán vay mua căn hộ HT PEALR Dĩ An, Bình Dương, khách hàng sẽ được hưởng các ưu đãi sau:</strong></p>
+<ul>
+<li><span style="color: #ab6649;"><strong>VietinBank</strong> hỗ trợ <strong>70% GIÁ TRỊ</strong> bất động sản, <strong>ÂN HẠN GỐC</strong> <strong>24 Tháng</strong>, <strong>Lãi suất 0%</strong> cho tới khi nhận bàn giao nhà. <span style="text-decoration: underline;"><strong>Không áp dụng đối</strong></span> với khách hàng nhận chuyển nhượng.</span></li>
+<li><span style="color: #ab6649;">Được <strong>miễn phí trả nợ trước hạn</strong> trong thời gian hỗ trợ lãi suất.</span></li>
+<li><span style="color: #ab6649;">Được <strong>ân hạn nợ gốc trong suốt thời gian hỗ trợ lãi suất vay</strong>. <span style="text-decoration: underline;"><strong>Không áp dụng</strong></span> đối với KH nhận chuyển nhượng.</span></li>
+<li><span style="color: #ab6649;">Chính sách chiết khấu dành cho <strong>Khách hàng</strong> mua sỉ:</span></li>
+</ul>
+			</div>
+	
+<table border="1" cellspacing="1" cellpadding="1">
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Số lượng sản phẩm</strong><br /><strong><em>(Number of the apartments purchased)</em></strong></td>
+<td style="text-align: center;"><strong>Mức chiết khấu trên giá bán sản phẩm</strong><br /><strong><em>(Discount rates on the sales price of the Apartment)</em></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">Từ 02 sản phẩm<br /><em>(From 02 Apartment)</em></td>
+<td style="text-align: center;">0,5%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Từ 03 sản phẩm<br /><em>(From 03 Apartment)</em></td>
+<td style="text-align: center;">1,0%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Từ 04 Sản phẩm<br /><em>(From 04 Apartment)</em></td>
+<td style="text-align: center;">1,5%</td>
+</tr>
+</tbody>
+</table>
+		</div>
+					</div>
+
+	
+</div>
+<span class="scroll-to" data-label="Scroll to: #tin-tuc" data-bullet="false" data-link="#tin-tuc" data-title="Tin tức"><a name="tin-tuc"></a></span>
+	<section class="section" id="section_978245987">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-small"  id="row-1638841696">
+
+	<div id="col-593984093" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" style="max-width:600px;"><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >TIN TỨC HT PEARL CẬP NHẬT</span><b></b></h3></div>
+
+  
+    <div class="row large-columns-4 medium-columns-1 small-columns-1">
+  		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/chu-dau-tu-ht-pearl-la-ai/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">CHỦ ĐẦU TƯ HT PEARL LÀ AI?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Chủ đầu tư dự án căn hộ cao cấp HT Pearl chính là CÔNG TY...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/cong-ty-tnhh-dau-tu-xay-dung-nha-ht-pearl/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Công ty TNHH Đầu tư Xây dựng Nhà HT-PEARL</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG NHÀ HT-PEARL Tên quốc tế: HT-PEARL BUILDING HOUSE...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/tuyen-dung-nhan-vien-ke-toan-noi-bo/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tuyển dụng nhân viên kế toán nội bộ</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/tuyen-dung-chuyen-vien-marketing/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tuyển dụng chuyên viên Marketing</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/tuyen-dung-nhan-vien-kinh-doanh-thang-11/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tuyển dụng nhân viên kinh doanh T11</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/thiet-ke-can-ho-han-quoc-tai-trung-tam-quan-binh-tan/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Thiết kế căn hộ Hàn Quốc tại trung tâm quận Bình Tân</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Ở 1 thành phố chật chội như Sài Gòn thì những căn nhà mặt tiền...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/huu-can-ho-ven-song-voi-gia-chi-22-ty-dong/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Sở hữu căn hộ ven sông với giá chỉ 2,2 tỷ đồng</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Ở 1 thành phố chật chội như Sài Gòn thì những căn nhà mặt tiền...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/can-ho-hai-mat-tien-song-sai-gon-voi-gia-chi-22-ty-dong/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Căn hộ hai mặt tiền sông Sài Gòn với giá chỉ 2,2 tỷ đồng</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Ở 1 thành phố chật chội như Sài Gòn thì những căn nhà mặt tiền...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInUp">
+			<div class="col-inner">
+			<a href="https://www.htpearl.info/tiem-nang-dau-tu-o-du-an-sieu-sang-serenity-sky-villas/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tiềm năng đầu tư ở dự án siêu sang Serenity Sky Villas</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Bên cạnh vị trí trung tâm, dự án có số lượng sản phẩm giới hạn...					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_978245987 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_978245987 .section-bg-overlay {
+  background-color: rgba(216, 216, 216, 0.436);
+}
+</style>
+	</section>
+	
+<span class="scroll-to" data-label="Scroll to: #lien-he" data-bullet="true" data-link="#lien-he" data-title="Lien he"><a name="lien-he"></a></span>
+	<section class="section" id="section_2079728731">
+		<div class="bg section-bg fill bg-fill  " >
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-small"  id="row-353668179">
+
+	<div id="col-1879976693" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" style="max-width:600px;"><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >THÔNG TIN LIÊN HỆ</span><b></b></h2></div>
+		</div>
+					</div>
+
+	
+</div>
+<div class="description mb-3 ff-bold" style="text-align: center;"><span style="color: #ab6649;"><strong>KHU CĂN HỘ CAO CẤP LÀNG ĐẠI HỌC DĨ AN BÌNH DƯƠNG</strong></span></div>
+<p style="text-align: center;">HOTLINE: <span style="font-size: 120%; color: #ed1c24;"><strong>0901 027 333</strong></span><br />ĐỊA CHỈ: Nguyễn Bỉnh Khiêm, P Đông Hòa, Tp Dĩ An, Bình Dương<br />EMAIL: info@ht-pearl.net</p>
+<div class="cl-red">
+<p style="text-align: center;"><span style="color: #ab6649;"><strong>Đồng ý nhận tư vấn dự án HT Pearl, mời Anh/ Chị điền đầy đủ thông tin bên dưới</strong></span></p>
+</div>
+<div class="row"  id="row-87453028">
+
+	<div id="col-1684803341" class="col medium-3 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+		</div>
+					</div>
+
+	
+
+	<div id="col-624705302" class="col medium-6 small-12 large-6"  >
+				<div class="col-inner"  >
+			
+			
+<div role="form" class="wpcf7" id="wpcf7-f505-p881-o1" lang="vi" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f505-p881-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="505" />
+<input type="hidden" name="_wpcf7_version" value="5.4" />
+<input type="hidden" name="_wpcf7_locale" value="vi" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f505-p881-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="881" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<p><label> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Họ và tên *" /></span> </label></p>
+<p><label> <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Số điện thoại (Zalo)*" /></span> </label></p>
+<p><label> <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Thời gian muốn nhận tư vấn? (VD: 19h ngày 05/1/2022)"></textarea></span> </label></p>
+<p><input type="submit" value="Đăng ký" class="wpcf7-form-control wpcf7-submit button secondary lowercase btn-bang-gia" /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>
+		</div>
+					</div>
+
+	
+
+	<div id="col-1498328201" class="col medium-3 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_2079728731 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_2079728731 .section-bg-overlay {
+  background-color: rgba(216, 216, 216, 0.436);
+}
+#section_2079728731 .section-bg.bg-loaded {
+  background-image: url(https://www.htpearl.info/wp-content/uploads/2022/01/bg_contact.jpg);
+}
+</style>
+	</section>
+	
+
+			</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+		<div id="tai-bang-gia"
+	     class="lightbox-by-id lightbox-content mfp-hide lightbox-white "
+	     style="max-width:400px ;padding:35px">
+			<div id="text-3916415158" class="text">
+		
+<div>
+<h3 class="ladi-headline-4">NHẬN BÁO GIÁ MỚI NHẤT T4/2022</h3>
+</div>
+		
+<style>
+#text-3916415158 {
+  text-align: center;
+}
+</style>
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1616423001">
+								<div class="img-inner dark" >
+			<img width="900" height="330" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA4QAAAFKAQMAAAB//QOVAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADtJREFUGBntwQENAAAAwiD7p34PBwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA7AZL0AAG2eJbJAAAAAElFTkSuQmCC" class="attachment-original size-original lazyload" alt=""   data-src="https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an.png" decoding="async" data-srcset="https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an.png 900w, https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an-800x293.png 800w, https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an-768x282.png 768w" data-sizes="auto" /><noscript><img width="900" height="330" src="https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an.png" class="attachment-original size-original" alt="" srcset="https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an.png 900w, https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an-800x293.png 800w, https://www.htpearl.info/wp-content/uploads/2021/12/phap-ly-du-an-768x282.png 768w" sizes="(max-width: 900px) 100vw, 900px" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1616423001 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+
+<div role="form" class="wpcf7" id="wpcf7-f466-o2" lang="vi" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f466-o2" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="466" />
+<input type="hidden" name="_wpcf7_version" value="5.4" />
+<input type="hidden" name="_wpcf7_locale" value="vi" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f466-o2" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="flex-row medium-flex-wrap form-nhan-file">
+<div class="flex-col">
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Họ và tên *" /></span>
+  </div>
+<div class="flex-col">
+    <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Số điện thoại (Zalo)*" /></span>
+  </div>
+<div class="flex-col">
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" /></span>
+  </div>
+<div class="flex-col">
+    <span class="wpcf7-form-control-wrap checkbox-110"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first"><label><input type="checkbox" name="checkbox-110[]" value="Căn hộ 1PN" /><span class="wpcf7-list-item-label">Căn hộ 1PN</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-110[]" value="Căn hộ 2PN" /><span class="wpcf7-list-item-label">Căn hộ 2PN</span></label></span><span class="wpcf7-list-item last"><label><input type="checkbox" name="checkbox-110[]" value="Căn hộ 3PN" /><span class="wpcf7-list-item-label">Căn hộ 3PN</span></label></span></span></span>
+  </div>
+<div class="flex-col">
+    <input type="submit" value="Tải bảng giá" class="wpcf7-form-control wpcf7-submit button secondary lowercase btn-bang-gia" />
+  </div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>	</div>
+			<script  data-wpmeteor-after="REORDER" type="javascript/blocked">
+			// Auto open lightboxes
+			jQuery(document).ready(function ($) {
+				/* global flatsomeVars */
+				'use strict'
+				var cookieId = 'lightbox_tai-bang-gia'
+				var cookieValue = 'opened_1'
+				var timer = parseInt('3000')
+
+				// Auto open lightbox
+								cookie(cookieId, false)
+				
+				// Run lightbox if no cookie is set
+				if (cookie(cookieId) !== cookieValue) {
+
+					// Ensure closing off canvas
+					setTimeout(function () {
+						jQuery.magnificPopup.close()
+					}, timer - 350)
+
+					// Open lightbox
+					setTimeout(function () {
+						$.magnificPopup.open({
+							midClick: true,
+							removalDelay: 300,
+							// closeBtnInside: flatsomeVars.lightbox.close_btn_inside,
+							// closeMarkup: flatsomeVars.lightbox.close_markup,
+							items: {
+								src: '#tai-bang-gia',
+								type: 'inline'
+							}
+						})
+					}, timer)
+
+					// Set cookie
+					cookie(cookieId, cookieValue, 365)
+				}
+			})
+		</script>
+	
+	
+
+	<div id="goi-lai"
+	     class="lightbox-by-id lightbox-content mfp-hide lightbox-white "
+	     style="max-width:400px ;padding:35px">
+			<div id="text-1123385390" class="text">
+		
+
+<div class="ladi-headline-small-1">Yêu cầu</div><div><h3 class="ladi-headline-4">Gọi lại</h3></div>
+		
+<style>
+#text-1123385390 {
+  text-align: center;
+}
+</style>
+	</div>
+	
+	<div id="gap-1543780168" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1543780168 {
+  padding-top: 20px;
+}
+</style>
+	</div>
+	
+
+<a class="button secondary lowercase expand"  style="border-radius:5px;">
+    <span>Hotline: 0909 999 999</span>
+  </a>
+
+
+	<div id="text-1544201674" class="text">
+		
+
+<span style="font-size: 80%;"><em>* Gọi cho chúng tôi hoặc nhập số điện thoại của bạn vào đây, chúng tôi sẽ gọi lại cho bạn ngay!</em></span>
+		
+<style>
+#text-1544201674 {
+  text-align: center;
+}
+</style>
+	</div>
+	
+<div role="form" class="wpcf7" id="wpcf7-f588-o3" lang="vi" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f588-o3" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="588" />
+<input type="hidden" name="_wpcf7_version" value="5.4" />
+<input type="hidden" name="_wpcf7_locale" value="vi" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f588-o3" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="medium-flex-wrap form-nhan-file">
+<div>
+    <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Số điện thoại (Zalo)*" /></span>
+  </div>
+<div>
+    <input type="submit" value="Đăng ký" class="wpcf7-form-control wpcf7-submit button secondary lowercase btn-bang-gia" />
+  </div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>	</div>
+	
+	
+<!-- FOOTER 1 -->
+
+<!-- FOOTER 2 -->
+<div class="footer-widgets footer footer-2 dark">
+		<div class="row dark large-columns-1 mb-0">
+	   		
+		<div id="block_widget-2" class="col pb-0 widget block_widget">
+		
+			<div id="gap-119312603" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-119312603 {
+  padding-top: 15px;
+}
+@media (min-width:550px) {
+  #gap-119312603 {
+    padding-top: 45px;
+  }
+}
+</style>
+	</div>
+	
+
+<div class="row row-small row-full-width align-middle align-center row-divided"  id="row-1921774662">
+
+
+	<div id="col-1786826241" class="col medium-4 small-7 large-4"  >
+				<div class="col-inner text-center"  >
+			
+			
+
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1084809754">
+								<div class="img-inner dark" >
+			<img width="450" height="274" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAESAQMAAABU6EcpAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACZJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAADcCj4UAAGhOlAJAAAAAElFTkSuQmCC" class="attachment-original size-original lazyload" alt="" data-src="https://www.htpearl.info/wp-content/uploads/2022/03/logo-ht-pearl.png" decoding="async" /><noscript><img width="450" height="274" src="https://www.htpearl.info/wp-content/uploads/2022/03/logo-ht-pearl.png" class="attachment-original size-original" alt="" data-eio="l" /></noscript>						
+					</div>
+								
+<style>
+#image_1084809754 {
+  width: 100%;
+}
+@media (min-width:550px) {
+  #image_1084809754 {
+    width: 72%;
+  }
+}
+</style>
+	</div>
+	
+
+
+		</div>
+				
+<style>
+#col-1786826241 > .col-inner {
+  padding: 0px 0px 0px 0px;
+}
+</style>
+	</div>
+
+	
+
+	<div id="col-1251898933" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner text-center"  >
+			
+			
+
+<div class="name-company">
+<h4 class="widget-title">HOTLINE</h4>
+</div>
+<div class="footer-info">
+<p class="footer-hotline"><strong>0901.027.333</strong></p>
+</div>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1724862784" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner text-center"  >
+			
+			
+
+	<div id="gap-1132821085" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1132821085 {
+  padding-top: 64px;
+}
+</style>
+	</div>
+	
+
+<div class="name-company">
+<h4 class="widget-title">CHỦ ĐẦU TƯ</h4>
+</div>
+<div class="footer-info">
+<p><img class="alignnone wp-image-1338 size-full lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABbAQMAAACrue7LAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABZJREFUGBljGAWjYBSMglEwCkYBCgAABxwAAV4xrcEAAAAASUVORK5CYII=" alt="" width="150" height="91" data-src="https://www.htpearl.info/wp-content/uploads/2020/09/logo-ht-pearl-small.png" decoding="async" /><noscript><img class="alignnone wp-image-1338 size-full" src="https://www.htpearl.info/wp-content/uploads/2020/09/logo-ht-pearl-small.png" alt="" width="150" height="91" data-eio="l" /></noscript></p>
+</div>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1248305012" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner text-center"  >
+			
+			
+
+	<div id="gap-912996695" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-912996695 {
+  padding-top: 30px;
+}
+</style>
+	</div>
+	
+
+<div class="name-company">
+<h4 class="widget-title">NHÀ NHẦU</h4>
+</div>
+<div class="footer-info">
+<p><img class="alignnone wp-image-1339 size-full lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAA+AQMAAADzgHAiAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABFJREFUGBljGAWjYBSMgmEGAATYAAHAz0EYAAAAAElFTkSuQmCC" alt="" width="150" height="62" data-src="https://www.htpearl.info/wp-content/uploads/2020/09/contectcon.png" decoding="async" /><noscript><img class="alignnone wp-image-1339 size-full" src="https://www.htpearl.info/wp-content/uploads/2020/09/contectcon.png" alt="" width="150" height="62" data-eio="l" /></noscript></p>
+</div>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1945880688" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner text-center"  >
+			
+			
+
+	<div id="gap-236770770" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-236770770 {
+  padding-top: 24px;
+}
+</style>
+	</div>
+	
+
+<div class="name-company">
+<h4 class="widget-title">PHÂN PHỐI</h4>
+</div>
+<div class="footer-info">
+<p><img class="alignnone wp-image-1340 size-full lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAA6AQMAAABoETI0AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABFJREFUGBljGAWjYBSMggEGAASIAAEnxSNNAAAAAElFTkSuQmCC" alt="" width="150" height="58" data-src="https://www.htpearl.info/wp-content/uploads/2020/09/logo-seahome.png" decoding="async" /><noscript><img class="alignnone wp-image-1340 size-full" src="https://www.htpearl.info/wp-content/uploads/2020/09/logo-seahome.png" alt="" width="150" height="58" data-eio="l" /></noscript></p>
+</div>
+
+		</div>
+					</div>
+
+	
+
+</div>
+		</div>
+		        
+		</div>
+</div>
+
+<div class="bottom-contact">
+	<div class="bottom-contact__item">
+		<a href="https://zalo.me/0901027333">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB3AQMAAADy/BZEAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABZJREFUGBljGAWjYBSMglEwCkYBzQEAB3AAAd0a7SUAAAAASUVORK5CYII=" data-src="https://www.htpearl.info/wp-content/uploads/2021/12/zalo-1.png" decoding="async" class="lazyload"><noscript><img src="https://www.htpearl.info/wp-content/uploads/2021/12/zalo-1.png" data-eio="l"></noscript>
+			<span>Zalo</span>
+		</a>
+	</div>
+	<div class="bottom-contact__item">
+		<a href="tel:0901027333">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL0AAAC9AQMAAADcGe5zAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABtJREFUGBntwTEBAAAAwiD7p14JT2AAAAAA8BYSdQABQWmEjAAAAABJRU5ErkJggg==" data-src="https://www.htpearl.info/wp-content/uploads/2021/12/call-1.png" decoding="async" class="lazyload"><noscript><img src="https://www.htpearl.info/wp-content/uploads/2021/12/call-1.png" data-eio="l"></noscript>
+			<span>Tư vấn</span>
+		</a>
+	</div>
+	<div class="bottom-contact__item">
+		<a href="#tai-bang-gia">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAABqAQMAAABeY0f1AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABRJREFUGBljGAWjYBSMglEwCogGAAY2AAEGYcEDAAAAAElFTkSuQmCC" data-src="https://www.htpearl.info/wp-content/uploads/2021/12/icon-download.png" decoding="async" class="lazyload"><noscript><img src="https://www.htpearl.info/wp-content/uploads/2021/12/icon-download.png" data-eio="l"></noscript>
+			<span>Báo giá</span>
+		</a>
+	</div>
+</div>
+<!-- <a class="ladi-button" href="#tai-bang-gia"><span>TẢI BẢNG GIÁ</span><span>(Cập nhật 29/12/2020)</span></a> -->
+
+<!-- <a href="tel:0901027333" class="suntory-alo-phone suntory-alo-green" id="suntory-alo-phoneIcon">
+  <div class="suntory-alo-ph-circle"></div>
+  <div class="suntory-alo-ph-circle-fill"></div>
+  <div class="suntory-alo-ph-img-circle"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL0AAAC9AQMAAADcGe5zAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABtJREFUGBntwTEBAAAAwiD7p14JT2AAAAAA8BYSdQABQWmEjAAAAABJRU5ErkJggg==" data-src="/wp-content/uploads/2021/12/call-1.png" decoding="async" class="lazyload" /><noscript><img src="/wp-content/uploads/2021/12/call-1.png" data-eio="l" /></noscript></div>
+  <div class="phone-number">0395338077</div>
+</a> -->
+
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+            <div class="copyright-footer">
+        Copyright 2022 © <strong>www.astralcity.vn</strong>      </div>
+          </div>
+  </div>
+</div>
+
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline circle" id="top-link" aria-label="Go to top"><i class="icon-angle-up" ></i></a>
+
+</footer>
+
+</div>
+
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+	<div class="sidebar-menu no-scrollbar text-center">
+		<ul class="nav nav-sidebar nav-vertical nav-uppercase nav-anim">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-649"><a href="https://www.htpearl.info/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-650"><a href="#vi-tri">Vị trí</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-651"><a href="#mat-bang">Mặt bằng</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1239"><a href="#thiet-ke">Thiết kế</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-652"><a href="#tien-ich">Tiện ích</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1211"><a href="#thanhtoan">Thanh toán</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1215"><a href="#uudai">Ưu đãi</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1213"><a href="#giaban">Giá bán</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1049"><a href="https://www.htpearl.info/view-360/">VIEW 360*</a></li>
+		</ul>
+	</div>
+</div>
+<script type='text/javascript' id='eio-lazy-load-js-before'>
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0};
+</script>
+<script type='text/javascript' src='https://www.htpearl.info/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=642.0' id='eio-lazy-load-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://www.htpearl.info/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://www.htpearl.info/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://www.htpearl.info/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://www.htpearl.info/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://www.htpearl.info/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://www.htpearl.info/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/dist/i18n.min.js?ver=9e36b5da09c96c657b0297fd6f7cb1fd' id='wp-i18n-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.21' id='lodash-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/dist/url.min.js?ver=1b4bb2b3f526a1db366ca3147ac39562' id='wp-url-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/dist/hooks.min.js?ver=d0d9f43e03080e6ace9a3dabbd5f9eee' id='wp-hooks-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" id='wp-api-fetch-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2021-02-05 03:13:06+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"vi_VN"},"An unknown error occurred.":["C\u00f3 l\u1ed7i n\u00e0o \u0111\u00f3 \u0111\u00e3 x\u1ea3y ra."],"The response is not a valid JSON response.":["Ph\u1ea3n h\u1ed3i kh\u00f4ng ph\u1ea3i l\u00e0 m\u1ed9t JSON h\u1ee3p l\u1ec7."],"Media upload failed. If this is a photo or a large image, please scale it down and try again.":["T\u1ea3i l\u00ean media kh\u00f4ng th\u00e0nh c\u00f4ng. N\u1ebfu \u0111\u00e2y l\u00e0 h\u00ecnh \u1ea3nh c\u00f3 k\u00edch th\u01b0\u1edbc l\u1edbn, vui l\u00f2ng thu nh\u1ecf n\u00f3 xu\u1ed1ng v\u00e0 th\u1eed l\u1ea1i."],"You are probably offline.":["C\u00f3 th\u1ec3 b\u1ea1n \u0111ang ngo\u1ea1i tuy\u1ebfn."]}},"comment":{"reference":"wp-includes\/js\/dist\/api-fetch.js"}} );
+</script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/dist/api-fetch.min.js?ver=c207d2d188ba8bf763f7acd50b7fd5a9' id='wp-api-fetch-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" id='wp-api-fetch-js-after'>
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://www.htpearl.info/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "c13010cfdc" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://www.htpearl.info/wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = [];
+/* ]]> */
+</script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4' id='contact-form-7-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-content/plugins/responsive-mobile-friendly-tooltip/responsive-tooltip.js' id='RMFtooltip-js-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=3.14.3' id='flatsome-live-search-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" id='q2w3_fixed_widget-js-extra'>
+/* <![CDATA[ */
+var q2w3_sidebar_options = [{"sidebar":"sidebar-main","margin_top":90,"margin_bottom":0,"stop_id":"footer","screen_max_width":0,"screen_max_height":0,"width_inherit":false,"refresh_interval":1500,"window_load_hook":false,"disable_mo_api":false,"widgets":["flatsome_recent_posts-17"]}];
+/* ]]> */
+</script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-content/plugins/q2w3-fixed-widget/js/q2w3-fixed-widget.min.js?ver=5.3.0' id='q2w3_fixed_widget-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"theme":{"version":"3.14.3"},"ajaxurl":"https:\/\/www.htpearl.info\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","assets_url":"https:\/\/www.htpearl.info\/wp-content\/themes\/flatsome\/assets\/js\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"0"}};
+/* ]]> */
+</script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-content/themes/flatsome/assets/js/flatsome.js?ver=295a0d1d1e8168b25a51f884bffa7b33' id='flatsome-js-js'></script>
+<script  data-wpmeteor-after="REORDER" type="javascript/blocked" data-src='https://www.htpearl.info/wp-includes/js/wp-embed.min.js?ver=5.6.8' id='wp-embed-js'></script>
+
+</body>
+</html>
